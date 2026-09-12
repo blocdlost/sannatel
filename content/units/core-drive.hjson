@@ -1,4 +1,5 @@
 name: drive
+type: flying
 localizedName: Drive
 description: "Core unit of the Fragment core. Quicker, more durable and builds faster than its lower-tier counterpart. Bears two point defense turrets."
 databaseTag: "unit-air"
@@ -44,6 +45,8 @@ weapons: [
         rotate: true
         rotateSpeed: 12
         reload: 10
+        controllable: false
+        autoTarget: true
         bullet: {
             type: PointLaserBulletType
             lifetime: 8

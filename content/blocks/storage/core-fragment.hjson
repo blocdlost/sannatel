@@ -2,7 +2,7 @@ name: core-fragment
 localizedName: "Core: Fragment"
 description: "Second iteration of Sannatel Cores. Armored. Stores a medium amount of items."
 type: CoreBlock
-unitType: core-steer
+unitType: core-drive
 isFirstTier: false
 requiresCoreZone: true
 incinerateNonBuildable: true
