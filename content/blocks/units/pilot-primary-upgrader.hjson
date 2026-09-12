@@ -1,0 +1,29 @@
+name: pilot-primary-upgrader
+localizedName: "Pilot Primary Upgrader"
+description: "Upgrades tier 1 pilot units to the second tier."
+requirements: [
+  "alkaloid/180", talc/182, zinc/385
+]
+health: 550
+category: units
+databaseTag: units
+type: Reconstructor
+size: 3
+rotate: true
+buildTime: 405
+
+upgrades: [
+  [
+    tamper
+    forge
+  ]
+]
+constructTime: 1500
+
+consumes: {
+  power: 2.2
+  items: [
+    alkaloid/28, iron/64
+  ]
+}
+

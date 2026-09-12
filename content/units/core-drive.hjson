@@ -24,6 +24,7 @@ allowedInPayloads: false
 coreUnitDock: true
 mineTier: 10
 mineSpeed: 7.5
+faceTarget: false
 
 range: 60
 maxRange: 60
@@ -44,8 +45,9 @@ weapons: [
         display: true
         rotate: true
         rotateSpeed: 12
-        targetInterval: 10
-        targetSwitchInterval: 10
+        reload: 30
+        targetInterval: 30
+        targetSwitchInterval: 30
         controllable: false
         autoTarget: true
         bullet: {
