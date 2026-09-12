@@ -17,7 +17,7 @@ groundLayer: 30
 range: 176
 maxRange: 176
 
-weapons: [ #110 DPS
+weapons: [ #115 DPS
   {
     name: barrier-weapon
     x: 0
@@ -36,7 +36,7 @@ weapons: [ #110 DPS
     }
     bullet: {
       type: basicBulletType
-      damage: 17.5
+      damage: 18
       splashDamage: 12
       splashDamageRadius: 8
       splashDamagePierce: true

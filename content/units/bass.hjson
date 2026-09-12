@@ -41,7 +41,7 @@ legBaseUnder: true
 lockLegBase: true
 legContinuousMove: true
 
-weapons: [ #153 DPS
+weapons: [ #125 DPS
   {
     name: bass-weapon
     mirror: true

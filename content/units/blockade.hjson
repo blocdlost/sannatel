@@ -18,7 +18,7 @@ crushFragile: true
 range: 224
 maxRange: 224
 
-weapons: [ #225 DPS
+weapons: [ #195 DPS
   {
     name: blockade-weapon
     x: 0

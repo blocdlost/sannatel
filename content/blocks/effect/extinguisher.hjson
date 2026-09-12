@@ -21,7 +21,7 @@ targetGround: false
 targetBlocks: true
 loopSound: shootSublimate
 shootSoundVolume: 0.3
-playerControllable: true //false normally, only true in testing
+playerControllable: false //false normally, only true in testing
 rotateSpeed: 3
 
 reload: 3
@@ -71,7 +71,7 @@ ammoTypes: {
     liquid: nitrogen 
     ammoMultiplier: 6.66667
     rangeChange: 128
-    range: 32000000000000000
+    extraRangeMargin: 1
     boilTime: 8000
     puddles: 0
     knockback: 0

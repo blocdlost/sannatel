@@ -38,7 +38,7 @@ craftEffect: {
   particles: 4
   baseLength: 0
   length: 24
-  lifetime: 30
+  lifetime: 45
   sizeFrom: 3
   sizeTo: 0
   colorFrom: "#626F9Bff"
@@ -84,7 +84,7 @@ drawer: {
 }
 
 ambientSound: loopGlow
-ambientSoundVolume: 1.25
+ambientSoundVolume: 0.8
 
 research: {
   parent: combheater

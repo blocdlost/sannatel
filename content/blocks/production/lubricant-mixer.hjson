@@ -71,7 +71,7 @@ drawer: {
 }
 
 ambientSound: loopSteam
-ambientSoundVolume: 0.75
+ambientSoundVolume: 0.5
 
 research: {
   parent: centrifuge

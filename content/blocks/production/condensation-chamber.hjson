@@ -26,10 +26,44 @@ consumes: {
 }
 
 outputItems: [
-  phosphor/1
+  phosphor/2
 ]
-craftTime: 150
+craftTime: 180
 
 heatOutput: 7
 warmupRate: 0.25
 
+drawer: {
+    type: DrawMulti
+    drawers: [
+        {
+        type: DrawRegion
+        suffix: "-bottom"
+        }
+        {
+        type: DrawParticles
+        color: "#DCCD22ff"
+        particles: 12
+        particleLife: 45
+        particleSize: 3
+        reverse: true
+        }
+        {
+        type: DrawLiquidRegion
+        drawLiquid: sodiumphosphate
+        suffix: "-liquid"
+        }
+        {
+        type: DrawDefault
+        }
+        {
+        type: DrawHeatOutput
+        heatColor: "#927D9Ecc"
+        }
+        {
+        type: DrawGlowRegion
+        alpha: 0.75
+        color: "#98826DFF"
+        }
+    ]
+}
