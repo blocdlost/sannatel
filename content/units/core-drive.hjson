@@ -1,0 +1,58 @@
+name: drive
+localizedName: Drive
+description: "Core unit of the Fragment core. Quicker, more durable and builds faster than its lower-tier counterpart. Bears two point defense turrets."
+databaseTag: "unit-air"
+template: ErekirUnitType
+envRequired: 128
+envDisabled: 0
+hitSize: 9
+speed: 5.35
+rotateSpeed: 8
+health: 280
+armor: 2
+mineRange: 180
+buildRange: 220
+strafePenalty: 0.4
+buildSpeed: 1
+fogRadius: 0
+flying: true
+isEnemy: false
+targetAir: false
+targetGround: false
+allowedInPayloads: false
+coreUnitDock: true
+mineTier: 10
+mineSpeed: 7.5
+
+range: 60
+maxRange: 60
+
+engineSize: 0
+itemCapacity: 80
+drag: 0.1
+accel: 0.1
+
+weapons: [
+    {
+        name: drive-pointdefense
+        type: PointDefenseWeapon
+        x: 2
+        y: 0
+        mirror: true
+        top: true
+        display: true
+        rotate: true
+        rotateSpeed: 12
+        reload: 10
+        bullet: {
+            type: PointLaserBulletType
+            lifetime: 8
+            damage: 15
+        }
+    }
+]
+
+research: {
+    parent: core-fragment
+}
+researchCostMultiplier: 0

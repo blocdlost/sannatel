@@ -80,22 +80,50 @@ weapons: [
         splashDamageRadius: 24
         hitSound: explosionDull
         hitEffect: {
-          type: WaveEffect
-          lifetime: 30
-          colorFrom: "#cccccc"
-          colorTo: "#cccccc"
-          sizeFrom: 0
-         sizeTo: 16
-         sides: 12
-        }
+          type: MultiEffect
+          effects: [
+            {
+            type: WaveEffect
+            lifetime: 30
+            colorFrom: "#cccccc"
+            colorTo: "#cccccc"
+            sizeFrom: 0
+            sizeTo: 16
+            sides: 12
+            }
+            {
+            type: ParticleEffect
+            particles: 5
+            lifetime: 45
+            length: 20
+            cone: 360
+            sizeFrom: 4
+            colorFrom: "#cccccc"
+            colorTo: "#cccccc"
+            }
         despawnEffect: {
-          type: WaveEffect
-          lifetime: 30
-          colorFrom: "#cccccc"
-          colorTo: "#cccccc"
-          sizeFrom: 0
-         sizeTo: 16
-         sides: 12
+          type: MultiEffect
+          effects: [
+            {
+            type: WaveEffect
+            lifetime: 30
+            colorFrom: "#cccccc"
+            colorTo: "#cccccc"
+            sizeFrom: 0
+            sizeTo: 16
+            sides: 12
+            }
+            {
+            type: ParticleEffect
+            particles: 5
+            lifetime: 45
+            length: 20
+            cone: 360
+            sizeFrom: 4
+            colorFrom: "#cccccc"
+            colorTo: "#cccccc"
+            }
+          ]
         }
       }
     }

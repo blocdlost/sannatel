@@ -6,6 +6,7 @@ databaseTag: "unit-air"
 template: ErekirUnitType
 envRequired: 128
 envDisabled: 0
+hitSize: 6
 speed: 5
 rotateSpeed: 8
 health: 120

@@ -74,7 +74,7 @@ ammoTypes: {
     reloadMultiplier: 2
     ammoMultiplier: 13.33334
     rangeChange: 128
-    extraRangeMargin: 320
+    extraRangeMargin: true
     boilTime: 8000
     puddles: 0
     knockback: 0
