@@ -73,7 +73,8 @@ drawer: {
     }
     {//heat input
       type: drawHeatInput
-      heatColor: "#927D9Ecc"
+      heatColor: "#927d9ebb"
+      
     }
     {//glow
       type: drawGlowRegion
@@ -84,7 +85,7 @@ drawer: {
 }
 
 ambientSound: loopGlow
-ambientSoundVolume: 0.8
+ambientSoundVolume: 0.5
 
 research: {
   parent: combheater

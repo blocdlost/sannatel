@@ -35,6 +35,7 @@ shoot: {
 
 ammoTypes: {
   sodiumphosphate: { #~700 DPS; max-min range 250-2125 DPS 
+    showStats: true
     type: liquidBulletType
     liquid: sodiumphosphate 
     lightColor: "#CCC9A3"
