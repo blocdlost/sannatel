@@ -41,7 +41,8 @@ craftEffect: {
   lifetime: 30
   sizeFrom: 3
   sizeTo: 0
-  color: "#626F9B00"
+  colorFrom: "#626F9Bff"
+  colorTo: "#626F9B00"
 }
 
 drawer: {

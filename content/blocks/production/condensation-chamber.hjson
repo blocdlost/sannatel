@@ -1,0 +1,35 @@
+name: condensation-chamber
+localizedName: Condensation Chamber
+description: "Condensates Sodium-Phosphate into Phosphor. Emits heat as a byproduct."
+requirements: [
+    zinc/280, graphite/120, lithium/225
+]
+type: HeatProducer
+category: crafting
+databaseTag: crafting
+size: 3
+buildTime: 300
+health: 550
+
+hasItems: true
+itemCapacity: 10
+hasLiquids: true
+liquidCapacity: 80
+
+consumes: {
+    power: 1.6
+  liquids: {
+    liquids: [
+      sodiumphosphate/0.66667
+    ]
+  }
+}
+
+outputItems: [
+  phosphor/1
+]
+craftTime: 150
+
+heatOutput: 7
+warmupRate: 0.25
+
