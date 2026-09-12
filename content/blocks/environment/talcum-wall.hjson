@@ -1,0 +1,4 @@
+name: talcum-wall
+localizedName: "Talcum Wall"
+type: StaticWall
+variants: 2

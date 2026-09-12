@@ -1,0 +1,30 @@
+name: armored-transtube
+localizedName: "Armored Transport Tube"
+description: "Transports items. Only accepts inputs on sides from other Transport Tubes."
+databaseTag: distribution
+category: distribution
+type: Duct
+hasItems: true
+armored: true
+itemCapacity: 2
+rotate: true
+invertFlip: true
+conveyorPlacement: true
+health: 150
+underBullets: true
+teamPassable: true
+buildTime: 2
+isDuct: true
+requirements: [
+  graphite/1
+]
+crushFragile: true
+speed: 5
+group: transportation
+junctionReplacement: transjunc
+bridgeReplacement: transbridge
+
+research: transtube
+researchCost: [
+  graphite/1
+]

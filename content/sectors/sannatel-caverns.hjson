@@ -1,0 +1,23 @@
+name: caverns
+localizedName: Caverns
+description: "The low amounts of ground [accent]Sodium[] forces you to extract the resource from the walls via the [accent]Rock Bore[]. Additional [accent]resources[] can be found and obtained here with the help of the Rock Bore."
+
+difficulty: 1
+captureWave: 21
+planet: sannatel
+sector: 3
+
+allowLaunchLoadout: false
+allowLaunchSchematics: false
+addStartingItems: true
+overrideLaunchDefaults: true
+alwaysUnlocked: false
+research: {
+  parent: sannatel-beginnings
+  objectives: [
+    {
+      type: SectorComplete
+      preset: sannatel-beginnings
+    }
+  ]
+}

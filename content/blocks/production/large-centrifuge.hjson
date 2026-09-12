@@ -1,0 +1,84 @@
+name: large-centrifuge
+localizedName: "Large Centrifuge"
+description: "Centrifuges both types of earth at the same time with higher efficiency than its standard counterparts. Requires power and lubrication."
+requirements: [
+  "sannatel-zinc/250", "sannatel-iron/75", "sannatel-lithium/175", "sannatel-talc/120"
+]
+category: crafting
+databaseTag: crafting
+type: genericCrafter
+size: 3
+buildTime: 180
+health: 425
+
+hasPower: true
+hasItems: true
+hasLiquids: true
+itemCapacity: 30
+liquidCapacity: 50
+
+consumes: {
+  power: 2.75
+  liquids: {
+    liquids: [
+      talc-oil/0.16667
+    ]
+  }
+  items: [
+    sannatel-rich-earth/4
+    sannatel-poor-earth/4
+  ]
+}
+
+outputItems: [
+  sannatel-lithium/3
+  sannatel-zinc/4
+]
+craftTime: 20
+
+craftEffect: blastsmoke
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: "-bottom"
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: talc-oil
+      padding: 3
+    }
+    {
+      type: DrawRegion
+      suffix: "-rotator"
+      spinSprite: true
+      rotateSpeed: 8
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      alpha: 0.75
+      color: "#98826DDD"
+    }
+  ]
+}
+
+ambientSound: loopMachine
+ambientSoundVolume: 0.2
+
+research: {
+  parent: lubricant-mixer
+  objectives: [
+    {
+      type: OnSector
+      preset: sannatel-midlands
+    }
+  ]
+}
+researchCost: [
+  "sannatel-zinc/400", "sannatel-iron/250", "sannatel-lithium/400", "sannatel-talc/150"
+]

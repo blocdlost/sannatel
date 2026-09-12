@@ -1,0 +1,27 @@
+name: midlands
+localizedName: Midlands
+description: "The resource-rich environment attracts not just us, but the enemy as well. The stronger and flying units will require you to discover new uses of [accent]Sludge[], and build new kinds of defences to exterminate the threat. Beware as Sludge is an extremely [accent]flammable[] material, and you should keep an eye out for it at all times."
+
+difficulty: 3
+captureWave: 31
+planet: sannatel
+sector: 24
+
+allowLaunchLoadout: false
+allowLaunchSchematics: false
+addStartingItems: true
+overrideLaunchDefaults: true
+alwaysUnlocked: false
+research: {
+  parent: sannatel-canyon
+  objectives: [
+    {
+      type: SectorComplete
+      preset: sannatel-presence
+    }
+    {
+      type: SectorComplete
+      preset: sannatel-canyon 
+    }
+  ]
+}

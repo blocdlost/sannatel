@@ -1,0 +1,11 @@
+name: poor-earth
+localizedName: "Poor Earth"
+description: "Type of soil. Contains high amounts of Zinc."
+hardness: 1
+cost: 0.1
+research: core-shrapnel
+buildable: false
+color:"#7C6354"
+lowPriority: true
+
+shownPlanets: [sannatel]

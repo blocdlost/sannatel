@@ -1,0 +1,31 @@
+name: ranger-secondary-upgrader
+localizedName: "Ranger Secondary Upgrader"
+description: "Upgrades tier 2 ranger units to the third tier."
+requirements: [
+  "alkaloid/245", "lithium/450", "phosphor/90"
+]
+health: 625
+category: units
+databaseTag: units
+type: Reconstructor
+size: 5
+rotate: true
+buildTime: 525
+
+upgrades: [
+  [
+    barrier
+    blockade
+  ]
+]
+constructTime: 3840
+
+consumes: {
+  power: 3.2
+  items: [
+    alkaloid/124, graphite/80, iron/132
+  ]
+}
+
+
+

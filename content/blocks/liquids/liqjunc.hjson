@@ -1,0 +1,16 @@
+name: channel-junction
+localizedName: "Liquid Channel Junction"
+description: "Bridges Liquid Channels over each other."
+type: LiquidJunction
+category: liquid
+databaseTag: liquid
+group: liquids
+requirements: [
+ "sannatel-iron/4", "sannatel-zinc/6"
+]
+health: 100
+
+research: liqchannel
+researchCost: [
+  "sannatel-iron/5"
+]

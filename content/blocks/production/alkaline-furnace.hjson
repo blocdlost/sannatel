@@ -1,0 +1,53 @@
+name: alkaline-furnace
+localizedName: "Alkaline Furnace"
+description: "Smelts Talc and Sodium into Alkaloid."
+requirements: [
+  "sannatel-iron/25", "sannatel-lithium/30"
+]
+category: crafting
+type: genericCrafter
+
+hasItems: true
+itemCapacity: 10
+buildTime: 30
+size: 2
+health: 250
+
+outputItems: [
+  sannatel-alkaloid/2
+]
+consumes: {
+  power: 0.25
+  items: [
+    sannatel-talc/1
+    sannatel-sodium/2
+  ]
+}
+craftTime: 75
+craftEffect: formsmoke
+
+drawer: {
+  type: drawMulti
+  drawers: [
+    {
+      type: drawDefault
+    }
+    {
+      type: drawFlame
+      flameColor: "#FFFF38ff"
+    }
+  ]
+}
+
+research: {
+  parent: centrifuge
+  objectives: [
+    {
+      type: SectorComplete
+      preset: sannatel-canyon
+    }
+  ]
+}
+researchCost: [
+  "sannatel-iron/100", "sannatel-lithium/75"
+]

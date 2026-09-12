@@ -1,0 +1,21 @@
+name: armored-liquid-channel
+localizedName: "Armored Liquid Channel"
+description: "Transports fluids. Only accepts inputs on sides from other Liquid Channels and does not leak. Capable of storing more liquid than standard Liquid Channels."
+requirements: [
+ "sannatel-iron/1", graphite/1
+]
+type: Conduit
+liquidCapacity: 20
+health: 180
+category: liquid
+databaseTag: liquid
+group: liquids
+leaks: false
+
+bridgeReplacement: liqbridge
+junctionReplacement: liqjunc
+
+research: liqchannel
+researchCost: [
+  graphite/3
+]

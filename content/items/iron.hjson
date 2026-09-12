@@ -1,0 +1,11 @@
+name: iron
+localizedName: Iron
+description: "Strong, inert metal. Used in defense equipment and alloys."
+details: "Extracted from Ferric Rock formations."
+research: lithium
+hardness: 3
+cost: 5
+buildable: true
+color: "#CCCCCC"
+
+shownPlanets: [sannatel]

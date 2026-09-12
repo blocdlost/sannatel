@@ -1,0 +1,10 @@
+name: sludge
+localizedName: Sludge
+type: Floor
+drownTime: 600
+status: tarred
+statusDuration: 300
+liquidDrop: sludge-liquid
+isLiquid: true
+cacheLayer: tar
+variants: 2

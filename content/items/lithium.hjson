@@ -1,0 +1,13 @@
+name: lithium
+localizedName: "Lithium"
+description: "Medium strength metal, capable of storing electric charge. Used in electric appliances and power generation."
+details: "Does not appear in ore form. Requires to be centrifuged from Rich Earth."
+research: rich-earth
+hardness: 10
+cost: 3
+buildable: true
+color: "#98826D"
+lowPriority: false
+charge: 0.1
+
+shownPlanets: [sannatel]

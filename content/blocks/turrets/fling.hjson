@@ -1,0 +1,159 @@
+name: fling
+localizedName: "Fling"
+description: "Launches mid-range mortar artillery shells."
+size: 3
+requirements: [
+  "lithium/200", "iron/115", "talc/100"
+]
+buildTime: 240
+category: turret
+databaseTag: turret
+health: 770
+type: ItemTurret
+range: 240
+rotateSpeed: 1.5
+coolantMultiplier: 1.3889
+reload: 57.5
+maxAmmo: 30
+ammoPerShot: 3
+targetAir: false
+targetGround: true 
+shootSound: shootMerui
+shootSoundVolume: 10
+group: turrets
+
+hasLiquids: true
+liquidCapacity: 72
+
+cooldownTime: 80
+shootX: 0
+shootY: 7.5
+shoot: {
+  type: shootPattern
+  shots: 1
+  firstShotDelay: 0
+}
+
+
+consumes: {
+  coolant: {
+    type: ConsumeCoolant
+    allowGas: false
+    allowLiquid: true
+    amount: 0.4
+  }
+}
+
+ammoTypes: {
+  sodium: { #130 DPS
+    pierce: true
+    width: 10
+    backColor: "#4D4F64ff"
+    frontColor: "#656B81ff"
+    width: 12
+    type: artilleryBulletType
+    splashDamage: 125
+    splashDamageRadius: 15
+    splashDamagePierce: true
+    lifetime: 15
+    speed: 2
+    ammoMultiplier: 1
+    hitSound: drillImpact
+    hitSoundVolume: 5
+    buildingDamageMultiplier: 0.1
+     hitEffect: {
+      type: ParticleEffect
+      length: 60
+      baseLength: 0
+      cone: 360
+      particles: 7
+      sizeFrom: 5
+      sizeTo: 0
+      lifetime: 70
+      colorFrom: "#656B81ff"
+      colorTo: "#656B8100"
+    }
+    lightColor: "#656B81ff"
+    trailColor: "#656B81ff"
+    trailChance: 0.5
+    trailEffect: vapor
+    trailParam: 2
+    drawSize: 100
+  }
+  graphite: { #390 DPS
+    pierce: true
+    backColor: "#626F9Bcc"
+    frontColor: "#95ABD9cc"
+    reloadMultiplier: 0.7
+    width: 12
+    type: artilleryBulletType
+    splashDamage: 200 //3*103
+    splashDamageRadius: 20
+    splashDamagePierce: true
+    lifetime: 10
+    speed: 3
+    ammoMultiplier: 1
+    hitSound: drillImpact
+    hitSoundVolume: 4
+    buildingDamageMultiplier: 0.05
+    hitEffect: {
+      type: ParticleEffect
+      length: 85
+      baseLength: 0
+      cone: 360
+      particles: 5
+      sizeFrom: 4
+      sizeTo: 0
+      lifetime: 40
+      colorFrom: "#95ABD9ff"
+      colorTo: "#95ABD900"
+    }
+    fragBullets: 3
+    fragOnHit: true
+    fragOnDespawn: true
+    fragOnAbsorb: true
+    fragBullet: {
+      pierce: true
+      type: basicBulletType
+      lifetime: 10
+      lifeScaleRandMin: 0.5
+      lifeScaleRandMax: 1.5
+      speed: 1
+      splashDamage: 103
+      splashDamageRadius: 10
+      splashDamagePierce: false 
+      hitSound: drillImpact
+      hitSoundVolume: 4
+      hitColor: "#95ABD9cc"
+      buildingDamageMultiplier: 0.1
+      hitEffect: {
+        type: ParticleEffect
+        length: 85
+        baseLength: 0
+        cone: 360
+        particles: 5
+        sizeFrom: 4
+        sizeTo: 0
+        lifetime: 40
+        colorFrom: "#95ABD9ff"
+        colorTo: "#95ABD900"
+      }
+    }
+    lightColor: "#95ABD9ff"
+    trailColor: "#95ABD9ff"
+    trailChance: 0.75
+    trailEffect: vapor
+    trailParam: 2
+    drawSize: 100
+  }
+}
+
+research: {
+  parent: pulse
+  objectives: [
+    talc
+  ]
+}
+researchCost: [
+  "lithium/400", "iron/200", "talc/150"
+]

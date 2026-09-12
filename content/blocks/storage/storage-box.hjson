@@ -1,0 +1,28 @@
+name: storage-box
+localizedName: "Storage Box"
+description: "Stores medium amounts of items and resources."
+size: 2
+requirements: [
+  "zinc/150", "iron/75"
+]
+health: 400
+itemCapacity: 250
+type: StorageBlock
+category: effect
+databaseTag: effect
+group: projectors
+buildTime: 255
+coreMerge: false
+
+research: {
+  parent: core-shrapnel
+  objectives: [
+    {
+      type: SectorComplete
+      preset: sannatel-caverns
+    }
+  ]
+}
+researchCost: [
+  "zinc/100", "iron/100"
+]

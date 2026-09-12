@@ -1,0 +1,21 @@
+name: channel-bridge
+localizedName: "Liquid Channel Bridge"
+description: "Transports liquids above terrain and buildings."
+type: LiquidBridge
+requirements: [
+  "sannatel-iron/6", "sannatel-zinc/8"
+]
+range: 5
+health: 110
+buildTime: 50
+databaseTag: liquid
+category: liquid
+group: liquids
+liquidCapacity: 25
+hasLiquids: true
+hasPower: false
+
+research: liqchannel
+researchCost: [
+  "sannatel-iron/10"
+]

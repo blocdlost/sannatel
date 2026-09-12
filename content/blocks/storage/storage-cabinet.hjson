@@ -1,0 +1,20 @@
+name: storage-cabinet
+localizedName: "Storage Cabinet"
+description: "Stores large amounts of items and resources."
+size: 3
+requirements: [
+  "zinc/300", "iron/180", graphite/100
+]
+health: 675
+itemCapacity: 950
+type: StorageBlock
+category: effect
+databaseTag: effect
+group: projectors
+buildTime: 390
+coreMerge: false
+
+research: storage-box
+researchCost: [
+  "zinc/500", "iron/500", graphite/250
+]

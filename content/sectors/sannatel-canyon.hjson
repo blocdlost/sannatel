@@ -1,0 +1,23 @@
+name: canyon
+localizedName: Canyon
+description: "A [accent]new resource[] can be found on this sector, used in many applications. Discover the resource and research everything useful to you. Fend off the enemy and move on."
+
+difficulty: 3
+captureWave: 26
+planet: sannatel
+sector: 10
+
+allowLaunchLoadout: false
+allowLaunchSchematics: false
+addStartingItems: true
+overrideLaunchDefaults: true
+alwaysUnlocked: false
+research: {
+  parent: sannatel-caverns
+  objectives: [
+    {
+      type: SectorComplete
+      preset: sannatel-caverns
+    }
+  ]
+}

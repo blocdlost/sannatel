@@ -1,0 +1,12 @@
+
+name: zinc,
+hardness: 4
+cost: 1
+color: "#AAC8C8",
+research: poor-earth
+buildable: true,
+localizedName: Zinc,
+description: "Malleable, inert metal. Used in basic equipment and alloys.",
+details: "Sourced from much harder Sphalerite ore, therefore cannot be mined by itself. Best alternative is centrifuging Poor Earth.",
+
+shownPlanets: [sannatel]

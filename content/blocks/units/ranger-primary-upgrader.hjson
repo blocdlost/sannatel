@@ -1,0 +1,29 @@
+name: ranger-primary-upgrader
+localizedName: "Ranger Primary Upgrader"
+description: "Upgrades tier 1 ranger units to the second tier."
+requirements: [
+  "alkaloid/120", "iron/190", "lithium/175"
+]
+health: 500
+category: units
+databaseTag: units
+type: Reconstructor
+size: 3
+rotate: true
+buildTime: 375
+
+upgrades: [
+  [
+    tank-obstacle
+    barrier
+  ]
+]
+constructTime: 2100
+
+consumes: {
+  power: 2.25
+  items: [
+    alkaloid/42, sodium/64
+  ]
+}
+

@@ -1,0 +1,64 @@
+name: barrier
+type: tank
+localizedName: Barrier
+description: "Fires a clump of flaming flak."
+template: TankUnitType
+databaseTag: "unit-ground"
+envDisabled: 4
+health: 2000
+armor: 5
+hitSize: 22
+faceTarget: false
+rotateSpeed: 2
+tankMoveSound: tankMove
+speed: 0.916667
+groundLayer: 30
+
+range: 176
+maxRange: 176
+
+weapons: [ #110 DPS
+  {
+    name: barrier-weapon
+    x: 0
+    y: -0.5
+    top: true
+    rotateSpeed: 1.65
+    display: true
+    mirror: false
+    showStatSprite: true
+    reload: 65
+    rotate: true
+    shoot: {
+      type: shootSpread
+      shots: 6
+      spread: 1
+    }
+    bullet: {
+      type: basicBulletType
+      damage: 17.5
+      splashDamage: 12
+      splashDamageRadius: 8
+      splashDamagePierce: true
+      lifetime: 16.25
+      speed: 12
+      velocityScaleRandMin: 0.95
+      velocityScaleRandMax: 1.05
+      trailEffect: disperseTrail
+      trailParam: 3
+      trailLength: 3
+      trailColor: "#D37F47"
+      hitEffect: fire
+      hitColor: "#D37F47"
+      makeFire: false
+      incendAmount: 1
+      incendChance: 0.12
+      incendSpread: 1.2
+      status: burning
+      statusDuration: 240
+    }
+    shootSound: shootTank
+  }
+]
+
+trailScl: 3

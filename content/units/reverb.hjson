@@ -1,0 +1,85 @@
+name: reverb
+localizedName: Reverb
+type: legs
+description: "Fires electric arcs. Capable of moving over most surfaces."
+databaseTag: "unit-ground"
+template: ErekirUnitType
+envDisabled: 4
+health: 385
+armor: 0
+hitSize: 12
+faceTarget: true
+rotateSpeed: 3.5
+speed: 0.773333
+groundLayer: 45
+
+targetAir: true
+targetGround: true
+
+immunities: [
+  corroded
+]
+
+range: 80
+maxRange: 80
+
+drawCell: true
+allowLegStep: true
+legPhysicsLayer: true
+legCount: 4
+legGroupSize: 2
+legLength: 8
+legSpeed: 500
+legForwardScl: 1.7
+legBaseOffset: 3
+legExtension: 1.1
+legLengthScl: 1.1
+legStraightLength: 1.15
+legMinLength: 1.3
+legMaxLength: 1.6
+legBaseUnder: true
+lockLegBase: true
+legContinuousMove: true
+
+weapons: [ #53 DPS
+  {
+    name: reverb-weapon
+    x: 4.5
+    y: -1
+    mirror: true
+    top: true
+    rotateSpeed: 4
+    rotationLimit: 60
+    rotate: true
+    reload: 30
+    shoot: {
+      type: shootPattern
+      shots: 1
+      shotDelay: 0
+    }
+    bullet: {
+      type: lightningBulletType
+      speed: 1
+      lifetime: 0
+      damage: 1
+      splashDamage: 25
+      splashDamageRadius: 5
+      lightning: 1
+      lightningLength: 15
+      lightningDamage: 25
+      lightningCone: 15
+      collidesAir: true
+      collidesGround: true
+      lightningColor: "#f3e979ff"
+      laserAbsorb: true
+    }
+    display: true
+    showStatSprite: true
+    shootSound: shootArc
+  }
+]
+
+research: {
+  parent: explorer-constructor
+}
+researchCostMultiplier: 0

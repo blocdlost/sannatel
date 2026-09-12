@@ -1,0 +1,68 @@
+name: stain
+localizedName: Stain 
+description: "Fires a stream of superheated fuel towards enemies."
+size: 3
+requirements: [
+  "zinc/400", "iron/325", graphite/180, phosphor/40
+]
+buildTime: 360
+category: turret
+databaseTag: turret
+group: turrets
+health: 1010
+type: liquidTurret
+range: 172
+rotateSpeed: 1.25
+shootCone: 35
+coolantMultiplier: 0
+
+reload: 1
+liquidCapacity: 180
+hasLiquids: true 
+
+targetAir: true 
+targetGround: true 
+loopSound: shootSublimate
+shootSoundVolume: 0.9
+
+shootX: 0
+shootY: 0
+shoot: {
+  type: shootSpread
+  shots: 3
+  spread: 5
+}
+
+ammoTypes: {
+  sodiumphosphate: { #~700 DPS; max-min range 250-2125 DPS 
+    type: liquidBulletType
+    liquid: sodiumphosphate 
+    lightColor: "#CCC9A3"
+    orbSize: 3
+    puddleSize: 0
+    lifetime: 60
+    boilTime: 60
+    speed: 3.5
+    damage: 10
+    armorMultiplier: 0.25
+    status: melting
+    statusDuration: 600
+    inaccuracy: 2.5
+    knockback: 1
+    trailEffect: {
+      type: particleEffect
+      particles: 4
+      lifetime: 20
+      length: 10
+      sizeFrom: 2
+      cone: 360
+      colorFrom: "#CCC9A3ff"
+      colorTo: "#CCC9A3"
+    }
+  }
+}
+
+drawer: {
+  type: DrawTurret
+  liquidDraw: sodiumphosphate
+}

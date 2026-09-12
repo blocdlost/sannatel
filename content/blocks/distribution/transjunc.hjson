@@ -1,0 +1,23 @@
+name: trans-junc
+localizedName: "Transport Junction"
+type: Junction
+databaseTag: distribution
+itemCapacity: 2
+health: 40
+underBullets: true
+teamPassable: true
+buildTime: 12
+isDuct: true
+requirements: [
+  "zinc/4"
+]
+crushFragile: true
+speed: 10
+description: "Bridges Transport Tubes over each other."
+category: distribution
+group: transportation
+
+research: transtube
+researchCost: [
+  "zinc/3"
+]

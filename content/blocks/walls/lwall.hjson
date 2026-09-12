@@ -1,0 +1,24 @@
+type: wall
+name: zinc-wall-large
+localizedName: "Large Zinc Wall"
+description: "Protects buildings from enemy projectiles."
+health: 1600
+armor: 4
+group: walls
+requirements: [
+    "sannatel-zinc/24",
+  ]
+placeSound: blockPlace2
+breakSound: blockBreak2
+destroySound: blockExplodeWall
+buildVisibility: shown
+category: defense
+baseShake: 2
+size: 2
+scaledHealth: 400
+buildTime: 32
+
+research: wall
+researchCost: [
+  "sannatel-zinc/48"
+]

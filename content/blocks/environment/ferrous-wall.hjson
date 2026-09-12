@@ -1,0 +1,6 @@
+name: ferr-wall
+localizedName: "Rich Ferric Wall"
+description: "Ferric Wall that drills are capable of extracting Iron from."
+type: staticWall
+variants: 2
+itemDrop: iron

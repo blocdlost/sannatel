@@ -1,0 +1,6 @@
+name: sodium-floor
+localizedName: "Sodium"
+description: "Sodium-rich ground."
+type: Floor
+itemDrop: sodium
+variants: 2

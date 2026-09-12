@@ -1,0 +1,6 @@
+name: poor-soil
+localizedName: "Poor Soil"
+description: "Soil containing high amounts of Zinc."
+type: Floor
+itemDrop: poor-earth
+variants: 2

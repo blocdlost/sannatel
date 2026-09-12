@@ -1,0 +1,31 @@
+name: explorer-secondary-upgrader
+localizedName: "Explorer Secondary Upgrader"
+description: "Upgrades tier 2 explorer units to the third tier."
+requirements: [
+  "alkaloid/300", "sodium/560", "phosphor/115"
+]
+health: 675
+category: units
+databaseTag: units
+type: Reconstructor
+size: 5
+rotate: true
+buildTime: 525
+
+upgrades: [
+  [
+    bass
+    tenor
+  ]
+]
+constructTime: 4200
+
+consumes: {
+  power: 3.5
+  items: [
+    alkaloid/112, graphite/70, lithium/128
+  ]
+}
+
+
+

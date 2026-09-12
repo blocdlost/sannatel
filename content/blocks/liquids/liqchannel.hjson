@@ -1,0 +1,20 @@
+name: liquid-channel
+localizedName: "Liquid Channel"
+description: "Transports fluids."
+requirements: [
+ "sannatel-iron/1"
+]
+type: Conduit
+liquidCapacity: 10
+health: 75
+category: liquid
+databaseTag: liquid
+group: liquids
+
+bridgeReplacement: liqbridge
+junctionReplacement: liqjunc
+
+research: ironpump
+researchCost: [
+  "sannatel-iron/3"
+]

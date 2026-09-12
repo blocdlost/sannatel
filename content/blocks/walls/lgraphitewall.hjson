@@ -1,0 +1,20 @@
+name: graphite-wall-large
+localizedName: "Large Graphite Wall"
+type: Wall
+size: 2
+description: "Protects buildings from enemy projectiles. Absorbs lasers and lightning arcs."
+absorbLasers: true
+insulated: true
+category: defense
+databaseTag: defense
+health: 1900
+group: walls
+requirements: [
+  "graphite/24"
+]
+buildTime: 36
+
+research: graphitewall
+researchCost: [
+  "graphite/48"
+]

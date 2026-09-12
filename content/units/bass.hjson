@@ -1,0 +1,87 @@
+name: Bass
+localizedName: Bass
+type: legs
+description: "Fires charged bullets that let out electrical sparks periodically."
+databaseTag: "unit-ground"
+template: ErekirUnitType
+envDisabled: 4
+health: 1730
+armor: 2
+hitSize: 18.75
+faceTarget: true
+rotateSpeed: 3.2
+speed: 0.75
+groundLayer: 60
+
+targetAir: true
+targetGround: true
+
+immunities: [
+  corroded
+]
+
+range: 160
+maxRange: 160
+
+drawCell: true
+allowLegStep: true
+legPhysicsLayer: true
+legCount: 4
+legGroupSize: 2
+legLength: 11
+legSpeed: 200
+legForwardScl: 1.7
+legBaseOffset: 5
+legExtension: 1.1
+legLengthScl: 1.1
+legStraightLength: 1.15
+legMinLength: 1.3
+legMaxLength: 1.6
+legBaseUnder: true
+lockLegBase: true
+legContinuousMove: true
+
+weapons: [ #153 DPS
+  {
+    name: bass-weapon
+    mirror: true
+    top: true
+    rotateSpeed: 1.5
+    rotate: true
+    rotationLimit: 90
+    reload: 48
+    x: 5.5
+    y: -1.2
+    shootSound: shootLocus
+    shoot: {
+      type: ShootPattern
+      shots: 1
+      shotDelay: 0
+    }
+    bullet: {
+      type: basicBulletType
+      hitSound: shootArc
+      despawnSound: shootArc
+      trailEffect: disperseTrail
+      trailColor: "#f3e979ff"
+      trailParam: 5
+      trailLength: 6
+      damage: 10
+      lifetime: 50
+      speed: 3.2
+      bulletInterval: 10
+      intervalBullet: {
+        type: lightningBulletType
+        lightningColor: "#f3e979ff"
+        lightningLength: 6
+        lightningDamage: 7.5
+        laserAbsorb: true
+      }
+      lightning: 4
+      lightningLength: 7
+      lightningDamage: 11
+      lightningColor: "f3e979ff"
+      laserAbsorb: true
+    }
+  }
+]

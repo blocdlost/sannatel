@@ -1,0 +1,20 @@
+name: large-liquid-reservoir
+localizedName: "Large Liquid Reservoir"
+description: "Stores a large amount of one liquid."
+type: LiquidRouter
+size: 3
+requirements: [
+  "iron/80", "zinc/120", graphite/40
+]
+liquidCapacity: 1500
+health: 450
+liquidPadding: 1
+category: liquid
+databaseTag: liquid
+group: liquids
+buildTime: 150
+
+research: liquid-res
+researchCost: [
+  "iron/400", "zinc/500", graphite/160
+]

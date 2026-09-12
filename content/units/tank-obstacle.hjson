@@ -1,0 +1,84 @@
+name: obstacle
+localizedName: Obstacle
+type: tank
+description: "Fires a burst of inaccurate standard bullets."
+template: TankUnitType
+databaseTag: "unit-ground"
+envDisabled: 4
+health: 410
+armor: 2
+hitSize: 14
+faceTarget: false
+rotateSpeed: 2
+tankMoveSound: tankMoveSmall
+speed: 0.95
+range: 150
+maxRange: 150
+groundLayer: 30
+
+weapons: [ #67 optimally, 23 DPS
+ {
+  name: obstacle-weapon
+  x: 0
+  y: -2
+  top: true
+  rotateSpeed: 1.8
+  shoot: {
+    type: shootSpread
+    shots: 3
+    spread: 30
+  }
+  bullet: {
+    type: basicBulletType
+    lifetime: 43
+    speed: 3.5
+    lifeScaleRandMin: 0.8
+    lifeScaleRandMax: 1.05
+    damage: 15
+    hitSize: 5
+    drawSize: 50
+    despawnEffect: {
+      type: ParticleEffect
+      length: 20
+      baseLength: 20
+      cone: 360
+      particles: 5
+      sizeFrom: 3
+      sizeTo: 0
+      lifetime: 20
+      colorFrom: "#A9946D"
+      colorTo: "#A9946D"
+    }
+    hitEffect: {
+      type: ParticleEffect
+      length: 10
+      baseLength: 10
+      cone: 360
+      particles: 3
+      sizeFrom: 4
+      sizeTo: 0
+      lifetime: 20
+      colorFrom: "#A9946D"
+      colorTo: "#A9946D"
+    }
+    shootSound: shootStell
+    inaccuracy: 7
+    trailEffect: disperseTrail
+    trailParam: 5
+    trailLength: 3
+    trailWidth: 2
+    trailColor: "#A9946D"
+  }
+  display: true
+  mirror: false
+  showStatSprite: true
+  reload: 40
+  rotate: true
+ }
+]
+trailScl: 2
+
+research: {
+  parent: ranger-constructor
+}
+researchCostMultiplier: 0

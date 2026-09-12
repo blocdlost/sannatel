@@ -1,0 +1,45 @@
+name: steer
+type: flying
+localizedName: Steer
+description: "Core unit of the Shrapnel core. Bears no weapons."
+databaseTag: "unit-air"
+template: ErekirUnitType
+envRequired: 128
+envDisabled: 0
+speed: 5
+rotateSpeed: 8
+health: 120
+armor: 1
+mineRange: 110
+buildRange: 200
+strafePenalty: 0.4
+buildSpeed: 0.9
+fogRadius: 0
+flying: true
+isEnemy: false
+targetAir: false
+targetGround: false
+allowedInPayloads: false
+coreUnitDock: true
+mineTier: 10
+mineSpeed: 7.5
+engines: [
+    {
+      rotation: 315,
+      radius: 2,
+      x: 4,
+      y: -6,
+    },
+    {
+      x: -4,
+      y: -6,
+      radius: 2,
+      rotation: 225,
+    },
+  ]
+
+alwaysUnlocked: true
+engineSize: 0
+itemCapacity: 60
+drag: 0.1
+accel: 0.1

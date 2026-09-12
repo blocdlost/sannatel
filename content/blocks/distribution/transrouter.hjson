@@ -1,0 +1,26 @@
+name: trans-router
+localizedName: "Transport Router"
+description: "Divides incoming items equally into 3 separate ways."
+type: DuctRouter
+databaseTag: distribution
+hasItems: true
+itemCapacity: 5
+rotate: true
+invertFlip: true
+health: 40
+underBullets: true
+teamPassable: true
+buildTime: 24
+isDuct: true
+requirements: [
+  "zinc/5"
+]
+crushFragile: true
+speed: 5
+category: distribution
+group: transportation
+
+research: transtube
+researchCost: [
+  "zinc/3"
+]

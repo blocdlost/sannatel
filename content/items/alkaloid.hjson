@@ -1,0 +1,11 @@
+name: alkaloid
+localizedName: Alkaloid
+description: "Highly basic and corrosive alloy based on sodium. Used in low tier unit production and heat related buildings. Flammable."
+research: sodium
+hardness: 0
+cost: 1
+buildable: true
+color: "#927D9E"
+flammability: 0.5
+
+shownPlanets: [sannatel]

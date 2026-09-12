@@ -1,0 +1,66 @@
+name: rejuvenator
+localizedName: Rejuvenator
+description: "Rejuvenates health of surrounding allied buildings."
+category: effect
+databaseTag: effect
+group: projectors
+requirements: [
+  "sannatel-talc/120", "sannatel-lithium/250", "sannatel-zinc/180"
+]
+size: 3
+type: RegenProjector
+range: 28
+healPercent: 0.037 
+optionalMultiplier: 1.75
+effectChance: 0.01
+baseColor: "#A0BCA5ff"
+effect: fluxVapor
+buildTime: 300
+health: 500
+consumes: {
+  power: 1.25
+  liquids: {
+    liquids: [
+     sludge-liquid/0.3333
+    ]
+    optional: true
+    booster: true
+  }
+}
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: "-bottom"
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: sludge-liquid
+      padding: 3 
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      alpha: 0.8
+      color: "#A0BCA5DD"
+    }
+  ]
+}
+
+research: {
+  parent: powertrans
+  objectives: [
+    {
+      type: OnSector
+      preset: sannatel-canyon
+    }
+  ]
+}
+
+researchCost: [
+  "sannatel-talc/200", "sannatel-lithium/500", "sannatel-zinc/400"
+]

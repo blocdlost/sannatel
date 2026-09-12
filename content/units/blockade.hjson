@@ -1,0 +1,79 @@
+name: blockade
+type: tank
+localizedName: Blockade
+description: "Fires swarms of homing incendary bullets."
+template: TankUnitType
+databaseTag: "unit-ground"
+envDisabled: 4
+health: 5150
+armor: 11
+hitSize: 27.5
+faceTarget: false
+rotateSpeed: 1.85
+tankMoveSound: tankMove
+speed: 0.8
+groundLayer: 30
+crushFragile: true
+
+range: 224
+maxRange: 224
+
+weapons: [ #225 DPS
+  {
+    name: blockade-weapon
+    x: 0
+    y: -2
+    top: true
+    rotateSpeed: 2.2
+    display: true
+    mirror: false
+    showStatSprite: true
+    reload: 48
+    rotate: true
+    shootSound: shootSap
+    shoot: {
+      type: ShootBarrel
+      shots: 4
+      shotDelay: 12
+      barrels: [
+        4,0,0
+        1.1,0,0
+        -1.1,0,0
+        -4,0,0
+      ]
+    }
+    bullet: {
+      type: basicBulletType
+      splashDamage: 48
+      splashDamageRadius: 25
+      lifetime: 45
+      speed: 5
+      trailEffect: missileTrail
+      trailColor: "#D37F47"
+      trailLength: 5
+      trailWidth: 3.5
+      homingPower: 0.15
+      homingRange: 8
+      weaveScale: 1.5
+      weaveMag: 5
+      hitEffect: {
+        type: WaveEffect
+        lifetime: 10
+        colorFrom: "#D37F47"
+        colorTo: "#D37F47"
+        sizeFrom: 0
+        sizeTo: 20
+        sides: 12
+      }
+      hitSound: explosionArtillery
+      hitColor: "#D37F47"
+      incendAmount: 1
+      incendChance: 0.12
+      incendSpread: 1.2
+      status: burning
+      statusDuration: 240
+    }
+  }
+]
+
+trailScl: 4

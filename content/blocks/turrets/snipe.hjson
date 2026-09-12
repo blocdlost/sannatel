@@ -1,0 +1,83 @@
+name: snipe
+localizedName: "Snipe"
+description: "Shoots salvos of charged bullets that let out periodical lightning arcs at air enemies."
+size: 3
+requirements: [
+  "alkaloid/75", "zinc/285", "talc/180"
+]
+buildTime: 210
+category: turret
+databaseTag: turret
+health: 850
+type: ItemTurret
+range: 220
+rotateSpeed: 3.5
+coolantMultiplier: 5.55556
+reload: 28
+maxAmmo: 30
+ammoPerShot: 2
+targetAir: true
+targetGround: false
+shootSound: shootBreach
+shootSoundVolume: 1
+group: turrets
+
+hasLiquids: true
+liquidCapacity: 60
+
+
+shootX: 0
+shootY: 7
+shoot: {
+  type: shootPattern
+  shots: 3
+  shotDelay: 4.5
+}
+
+consumes: {
+  coolant: {
+    type: consumeCoolant
+    allowLiquid: true
+    allowGas: false
+    amount: 0.2
+ }
+}
+
+ammoTypes: {
+  lithium: { #435 DPS
+    type: basicBulletType
+    ammoMultiplier: 1
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 3
+    pierceDamageFactor: 0.1
+    trailEffect: disperseTrail
+    trailParam: 4
+    trailLength: 8
+    trailColor: "#98826Dff"
+    lightColor: "#98826Dff"
+    damage: 65
+    lifetime: 25.375
+    speed: 9
+    bulletInterval: 6
+    collidesGround: false
+    intervalBullet: {
+    type: lightningBulletType
+    lightningColor: "#98826Dff"
+    lightningLength: 5
+    damage: 3
+    collidesGround: false
+    ammoMultiplier: 1
+    }
+  }
+}
+
+research: {
+  parent: fling
+  objectives: [
+    graphite
+  ]
+}
+researchCost: [
+  "alkaloid/100", "zinc/500", "talc/350"
+]

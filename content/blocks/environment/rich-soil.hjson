@@ -1,0 +1,6 @@
+name: rich-soil
+localizedName: "Rich Soil"
+description: "Soil containing high amounts of Lithium and Zinc."
+type: Floor
+itemDrop: rich-earth
+variants: 2

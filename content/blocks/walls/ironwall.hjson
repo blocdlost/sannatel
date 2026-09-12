@@ -1,0 +1,18 @@
+name: iron-wall
+localizedName: "Iron Wall"
+type: Wall
+description: "Protects buildings from enemy projectiles."
+category: defense
+databaseTag: defense
+health: 500
+armor: 1
+group: walls
+requirements: [
+  "sannatel-iron/6"
+]
+buildTime: 10
+
+research: wall
+researchCost: [
+  "sannatel-iron/48"
+]

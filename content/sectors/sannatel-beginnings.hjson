@@ -1,0 +1,14 @@
+name: beginnings
+localizedName: Beginnings
+description: "Begin your journey on [accent]Sannatel[]. Obtain and research your first [accent]resources[] and defend yourself from the [accent]enemies."
+difficulty: 1
+captureWave: 12
+planet: sannatel
+sector: 5
+
+allowLaunchLoadout: false
+allowLaunchSchematics: false
+addStartingItems: false
+overrideLaunchDefaults: true
+alwaysUnlocked: true
+research: core-shrapnel

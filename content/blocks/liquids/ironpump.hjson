@@ -1,0 +1,28 @@
+name: ironpump
+localizedName: "Iron Pump"
+description: "Extracts liquids from pools."
+size: 3
+type: Pump
+requirements: [
+  "sannatel-iron/75", "sannatel-zinc/40", "sannatel-lithium/25"
+]
+buildTime: 150
+consumes: {
+  power: 0.9
+}
+category: liquid
+databaseTag: liquid
+group: liquids
+
+liquidCapacity: 160
+pumpAmount: 0.074075
+
+research: {
+  parent: soil-drill
+  objectives: [
+    iron
+  ]
+}
+researchCost: [
+  "sannatel-iron/100", "sannatel-zinc/150", "sannatel-lithium/75"
+]

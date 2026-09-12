@@ -1,0 +1,10 @@
+name: chemicalia
+localizedName: Chemicalia
+type: Floor
+drownTime: 600
+status: corroded
+statusDuration: 420
+liquidDrop: chemicalia-liquid
+isLiquid: true
+cacheLayer: arkycite
+variants: 1

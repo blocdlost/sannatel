@@ -1,0 +1,19 @@
+name: iron-wall-large
+localizedName: "Large Iron Wall"
+type: Wall
+size: 2
+description: "Protects buildings from enemy projectiles."
+category: defense
+databaseTag: defense
+health: 2000
+armor: 2
+group: walls
+requirements: [
+  "sannatel-iron/24"
+]
+buildTime: 40
+
+research: ironwall
+researchCost: [
+  "sannatel-iron/48"
+]

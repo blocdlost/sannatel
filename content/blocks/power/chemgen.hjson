@@ -1,0 +1,60 @@
+name: chemical-generator
+localizedName: "Chemical Generator"
+description: "Generates power from Sodium and Chemicalia."
+type: consumeGenerator
+size: 3
+category: power
+databaseTag: power
+group: power 
+requirements: [
+  "sannatel-lithium/150", "sannatel-iron/52", "sannatel-sodium/200"
+]
+buildTime: 240
+
+consumes: {
+ items: [
+  sannatel-sodium/1
+ ]
+ liquids: [
+  chemicalia-liquid/0.5
+ ]
+}
+
+powerProduction: 5.25
+health: 450
+itemCapacity: 10
+itemDuration: 37.5
+liquidCapacity: 60
+generateEffect: formsmoke
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: "-bottom"
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: chemicalia-liquid
+      padding: 3
+    }
+    {
+      type: DrawDefault
+    }
+
+  ]
+}
+
+ambientSound: loopRegen
+ambientSoundVolume: 1
+
+research: {
+  parent: chem-react-chamber
+  objectives: [
+    chemicalia-liquid
+  ]
+}
+researchCost: [
+  "sannatel-lithium/300", "sannatel-iron/100", "sannatel-sodium/250"
+]

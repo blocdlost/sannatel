@@ -1,0 +1,32 @@
+name: core-fragment
+localizedName: "Core: Fragment"
+description: "Second iteration of Sannatel Cores. Armored. Stores a medium amount of items."
+type: CoreBlock
+unitType: core-steer
+isFirstTier: false
+requiresCoreZone: true
+incinerateNonBuildable: true
+itemCapacity: 6000
+health: 7250
+armor: 5
+buildTime: 4500
+requirements: [
+  "lithium/3000", "iron/2200", "alkaloid/1800"
+]
+size: 4
+category: effect
+databaseTag: effect
+unitCapModifier: 13
+
+research: {
+  parent: core-shrapnel
+  objectives: [
+    {
+      type: SectorComplete
+      preset: sannatel-midlands
+    }
+  ]
+}
+researchCost: [
+  "lithium/15000", "iron/12500", "alkaloid/9000"
+]

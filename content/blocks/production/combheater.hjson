@@ -1,0 +1,60 @@
+name: combustion-heater
+localizedName: "Combustion Heater"
+description: "Burns Talc to generate heat."
+type: HeatProducer
+size: 3
+requirements: [
+  "sannatel-alkaloid/100", "sannatel-sodium/60", "sannatel-iron/80"
+]
+category: crafting
+databaseTag: crafting
+group: heat 
+buildTime: 45
+health: 300
+
+hasItems: true
+itemCapacity: 10
+
+consumes: {
+  items: [
+    "sannatel-talc/1"
+  ]
+}
+craftTime: 120
+heatOutput: 5
+
+drawer: {
+  type: drawMulti
+  drawers: [
+    {
+      type: drawRegion
+      suffix: "-bottom"
+    }
+    {
+      type: drawArcSmelt
+    }
+    {
+      type: drawDefault
+    }
+    {
+      type: drawHeatOutput
+      heatColor: "#927D9Ecc"
+    }
+  ]
+}
+
+ambientSound: loopSmelter
+ambientSoundVolume: 0.25
+
+research: {
+  parent: alkaline-furnace
+  objectives: [
+    {
+      type: OnSector
+      preset: sannatel-midlands
+    }
+  ]
+}
+researchCost: [
+  "sannatel-alkaloid/100", "sannatel-sodium/240", "sannatel-iron/320"
+]

@@ -1,0 +1,29 @@
+name: sodium-lithium-battery
+localizedName: "Sodium-Lithium Battery"
+description: "Stores charge in Sodium-Lithium cells."
+type: Battery
+requirements: [
+  "sannatel-lithium/75", "sannatel-sodium/42"
+]
+consumes: {
+  powerBuffered: 7500
+}
+category: power
+databaseTag: power
+health: 150
+size: 1
+buildTime: 120
+group: power
+
+research: {
+  parent: powertrans
+  objectives: [
+    {
+      type: SectorComplete
+      preset: sannatel-beginnings
+    }
+  ]
+}
+researchCost: [
+  "sannatel-lithium/150", "sannatel-sodium/100"
+]

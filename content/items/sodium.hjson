@@ -1,0 +1,14 @@
+name: sodium
+localizedName: Sodium
+description: "Soft, highly reactive metal. Used in chemical synthesis and reactive equipment."
+details: "Appears in large soil and cliff formations. Extremely reactive to and should be kept away from water and heat."
+hardness: 1
+cost: 1
+research: zinc
+buildable: true
+color: "#656B81"
+lowPriority: false
+explosiveness: 0.15
+flammability: 0.2
+
+shownPlanets: [sannatel]

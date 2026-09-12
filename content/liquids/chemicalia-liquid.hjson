@@ -1,0 +1,22 @@
+name: chemicalia-liquid
+localizedName: Chemicalia
+description: "Highly corrosive and acidic liquid mix. Used in material synthesis and power generation."
+details: "Occurs in small pockets and puddles. Origin of source is unknown. Unlikely to be natural."
+color: "#79D82B"
+gasColor: "#9AE65C"
+barColor: "#79D82B"
+flammability: 0.15
+temperature: 0.52
+heatCapacity: 0.25
+viscosity: 0.65
+explosiveness: 0.1
+blockReactive: true 
+coolant: false
+particleEffect: corrosionVapor
+boilPoint: 3
+vaporEffect: corrosionVapor
+databaseTag: liquid
+
+research: {
+  parent: iron
+}

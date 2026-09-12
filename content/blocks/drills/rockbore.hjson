@@ -1,0 +1,47 @@
+name: rock-bore
+localizedName: "Rock Bore"
+description: "Extracts resources from walls."
+size: 2
+requirements: [
+  "sannatel-zinc/25", "sannatel-lithium/12"
+]
+buildTime: 90
+tier: 3
+category: production
+databaseTag: production
+type: BeamDrill
+drillTime: 193
+range: 2
+drillMultipliers: {
+  "sannatel-iron": 0.75
+}
+consumes: {
+  power: 0.2
+ liquids: {
+  liquids: [
+    chemicalia-liquid/0.167
+  ]
+  optional: true
+  booster: true
+ }
+}
+optionalBoostIntensity: 3.5
+blockedItems: [
+ "beryllium", "graphite", "tungsten", "thorium"
+]
+liquidCapacity: 30
+hasLiquids: true
+hasItems: true
+itemCapacity: 10
+group: drills
+details: "Liquid Boost: 3.5x"
+
+research: {
+  parent: soil-drill
+  objectives: [
+    sannatel-caverns
+  ]
+}
+researchCost: [
+  "sannatel-zinc/25", "sannatel-lithium/5"
+]

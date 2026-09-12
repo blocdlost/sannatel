@@ -1,0 +1,31 @@
+name: soil-centrifuge1
+localizedName: "Zinc Centrifuge"
+description: "Extracts Zinc from Poor Earth samples."
+requirements: [
+    "sannatel-zinc/50",
+  ]
+category: crafting
+type: genericCrafter
+
+hasItems: true
+itemCapacity: 20
+buildTime: 24
+size: 2
+health: 150
+
+outputItems: [
+  sannatel-zinc/2
+]
+consumes: {
+  items: [
+    sannatel-poor-earth/4
+  ]
+}
+craftTime: 35
+
+placeSound: blockPlace2
+breakSound: blockBreak2
+craftEffect: pulverizeMedium
+
+research: soil-drill
+researchCostMultiplier: 0.01691474966

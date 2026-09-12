@@ -1,0 +1,62 @@
+name: vent-purifier
+localizedName: "Vent Purifier"
+description: "Purifies the gases coming out from vents into Nitrogen by filtering it through Poor Soil. Requires power."
+type: AttributeCrafter
+
+baseEfficiency: 0
+minEfficiency: 1
+displayEfficiencyScale: 1
+
+attribute: gaseous
+
+category: production
+databaseTag: production
+group: drills
+
+size: 3
+requirements: [
+  "zinc/275", "iron/200", "alkaloid/185", "phosphor/60"
+]
+buildTime: 180
+health: 580
+
+hasItems: true
+itemCapacity: 10
+hasLiquids: true
+liquidCapacity: 48
+
+outputLiquids: [
+  nitrogen/0.2
+]
+consumes: {
+  power: 2.5
+  items: [
+    poor-earth/1
+  ]
+}
+craftEffect: ventSteam
+craftTime: 20
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: "-bottom"
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: nitrogen
+      padding: 3
+    }
+    {
+      type: DrawRegion
+      suffix: "-rotator"
+      spinSprite: true 
+      rotateSpeed: 10
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}

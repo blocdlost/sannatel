@@ -1,0 +1,13 @@
+name: phosphor
+localizedName: Phosphor
+description: "Hard and rough grained resource. Used for miscellanious and lighting equipment. Explosive."
+details: "Also does not appear in natural reserves, and has to be extracted from Sodium-Phosphate."
+research: sodiumphosphate
+hardness: 10
+cost: 1
+buildable: true
+color: "#DCCD22"
+lowPriority: false
+explosiveness: 0.75
+
+shownPlanets: [sannatel]

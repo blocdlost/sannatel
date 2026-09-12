@@ -1,0 +1,21 @@
+name: trans-bridge
+localizedName: "Transport Bridge"
+description: "Transports items above terrain and buildings."
+type: ItemBridge
+health: 65
+buildTime: 50
+requirements: [
+  "zinc/8"
+]
+range: 5
+databaseTag: distribution
+category: distribution
+hasItems: true
+transportTime: 4
+hasPower: false
+group: transportation
+
+research: transjunc
+researchCost: [
+  "zinc/5"
+]

@@ -1,0 +1,17 @@
+name: iron-door
+localizedName: "Iron Door"
+description: "A wall that opens automatically in front of allied units and lets them move through."
+type: AutoDoor
+category: defense
+databaseTag: defense
+health: 430
+group: walls
+requirements: [
+  "sannatel-iron/5", "sannatel-alkaloid/3"
+]
+buildTime: 15
+
+research: wall
+researchCost: [
+  "sannatel-iron/48", "sannatel-alkaloid/24"
+]

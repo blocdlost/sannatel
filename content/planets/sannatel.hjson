@@ -1,0 +1,84 @@
+name: sannatel
+localizedName: Sannatel 
+alwaysUnlocked: true
+accessible: true
+visible: true
+
+allowCampaignRules: true
+allowLaunchLoadout: false
+allowLaunchSchematics: true
+allowLaunchToNumbered: false
+allowLegacyLaunchPads: false
+allowSectorInvasion: false
+allowSelfSectorLaunch: false
+allowWaves: true
+defaultCore: core-shrapnel
+
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+startSector: 5
+sectorSize: 1
+sectorSeed: 14513
+parent: sun
+solarSystem: sun
+tidalLock: false
+drawOrbit: true
+orbitRadius: 35
+orbitSpacing: 1
+radius: 1.2
+minZoom: 1
+
+iconColor: "#D3AE8D"
+hasAtmosphere: true
+atmosphereColor: "#D3AE8D"
+bloom: false
+
+
+campaignRules: {
+ coreDestroyClear: true
+ lighting: false
+}
+
+campaignRuleDefaults: {
+ hideSpawns: false
+ 
+}
+
+mesh: [
+ {
+    //sandstone
+    type: NoiseMesh
+    color1: "#D3AE8D"
+    color2: "#F7CBA4"
+    divisions: 5
+    seed: 1
+    radius: 1
+    octaves: 3
+    persistence: 1
+  }
+  {
+    //white sand
+    type: NoiseMesh
+    color1: "#FFF1E5"
+    color2: "#FFD7B5"
+    divisions: 5
+    seed: 15
+    radius: 1.05
+    octaves: 3
+    persistence: 1
+  }
+  {
+    //stone
+    type: NoiseMesh
+    color1: "#54545B"
+    color2: "#666666"
+    divisions: 5
+    seed: 500
+    radius: 1.04
+    octaves: 3
+    persistence: 1
+    mag: 1
+  }
+]
+
+generator: "0"

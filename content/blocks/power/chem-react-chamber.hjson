@@ -1,0 +1,30 @@
+name: chem-react-chamber
+localizedName: "Chemical Reactive Chamber"
+description: "Uses Sodium to react with rich soil samples."
+size: 2
+requirements: [
+  "sannatel-zinc/52", "sannatel-sodium/36"
+]
+
+type: ConsumeGenerator
+consumes: {
+  items: [
+    sannatel-sodium/2, sannatel-rich-earth/1
+  ]
+}
+
+powerProduction: 2
+health: 200
+
+category: power 
+hasItems: true
+itemCapacity: 15
+itemDuration: 42
+buildTime: 120
+group: power
+generateEffect: formsmoke
+
+research: soil-drill
+researchCost: [
+  "sannatel-zinc/25", "sannatel-sodium/25"
+]

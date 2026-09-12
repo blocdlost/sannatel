@@ -1,0 +1,22 @@
+type: Wall
+name: zinc-wall
+localizedName: "Zinc Wall"
+description: "Protects buildings from enemy projectiles."
+health: 400
+armor: 2
+group: walls
+requirements: [
+    "sannatel-zinc/6",
+  ]
+placeSound: blockPlace1
+breakSound: blockBreak1
+destroySound: blockExplodeWall
+buildVisibility: shown
+category: defense
+buildTime: 8
+baseShake: 1
+
+research: pulse
+researchCost: [
+  "sannatel-zinc/24"
+]

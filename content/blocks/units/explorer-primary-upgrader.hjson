@@ -1,0 +1,29 @@
+name: explorer-primary-upgrader
+localizedName: "Explorer Primary Upgrader"
+description: "Upgrades tier 1 explorer units to the second tier."
+requirements: [
+  "alkaloid/160", "iron/170", "sodium/235"
+]
+health: 520
+category: units
+databaseTag: units
+type: Reconstructor
+size: 3
+rotate: true
+buildTime: 390
+
+upgrades: [
+  [
+    reverb
+    bass
+  ]
+]
+constructTime: 2280
+
+consumes: {
+  power: 2.41667
+  items: [
+    alkaloid/36, talc/42
+  ]
+}
+

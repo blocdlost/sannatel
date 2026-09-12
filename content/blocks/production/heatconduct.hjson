@@ -1,0 +1,38 @@
+name: heat-conductor
+localizedName: "Heat Conductor"
+description: "Conducts and transports heat."
+type: HeatConductor
+size: 3
+requirements: [
+  "sannatel-alkaloid/25", "sannatel-iron/32"
+]
+buildTime: 30
+health: 250
+databaseTag: crafting
+group: heat
+category: crafting
+
+drawer: {
+  type: drawMulti
+  drawers: [
+    {
+      type: drawDefault
+    }
+    {
+      type: drawHeatOutput
+      heatColor: "#927D9Ecc"
+    }
+  ]
+}
+
+research: {
+  parent: combheater
+  objectives: [
+    {
+      type: OnSector
+      preset: sannatel-midlands
+    }
+  ]
+}
+researchCost: [
+]

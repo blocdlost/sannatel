@@ -1,0 +1,18 @@
+name: channel-router
+localizedName: "Liquid Channel Router"
+description: "Distributes inputted liquids into 3 ways equally. Can store small amount of liquid."
+type: LiquidRouter
+category: liquid
+databaseTag: liquid
+group: liquids
+requirements: [
+  "sannatel-iron/4", "sannatel-zinc/6"
+]
+liquidCapacity: 50
+health: 100
+liquidPadding: 1
+
+research: liqchannel
+researchCost: [
+  "sannatel-iron/8"
+]

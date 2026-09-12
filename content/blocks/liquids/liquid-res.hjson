@@ -1,0 +1,28 @@
+name: liquid-reservoir
+localizedName: "Liquid Reservoir"
+description: "Stores a medium amount of one liquid."
+type: LiquidRouter
+size: 2
+requirements: [
+  "sannatel-iron/45", "sannatel-zinc/60"
+]
+liquidCapacity: 450
+health: 385
+liquidPadding: 1
+category: liquid
+databaseTag: liquid
+group: liquids
+buildTime: 60
+
+research: {
+  parent: liqrouter 
+  objectives: [
+    {
+      type: SectorComplete
+      preset: sannatel-caverns
+    }
+  ]
+}
+researchCost: [
+  "sannatel-iron/100", "sannatel-zinc/120"
+]

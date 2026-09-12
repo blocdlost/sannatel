@@ -1,0 +1,12 @@
+name: sodium-vent
+localizedName: "Sodium Vent"
+type: SteamVent
+status: burning
+statusDuration: 180
+effectColor: "#CCC9A3"
+variants: 3
+blendGroup: sodium-soil
+parent: sodium-soil
+attributes: {
+  gaseous: 0.111112
+}

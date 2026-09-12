@@ -1,0 +1,99 @@
+name: graphite-refiner
+localizedName: "Graphite Refinery"
+description: "Refines Sludge into Graphite. Requires heat."
+requirements: [
+  "sannatel-talc/165", "sannatel-iron/190", "sannatel-lithium/135", "sannatel-alkaloid/175"
+]
+type: HeatCrafter
+category: crafting
+databaseTag: crafting
+size: 3
+buildTime: 240
+health: 480
+
+hasItems: true
+itemCapacity: 20
+hasLiquids: true
+liquidCapacity: 120
+
+consumes: {
+  power: 3.58334
+  liquids: {
+    liquids: [
+      sludge-liquid/0.66667
+    ]
+  }
+}
+
+outputItems: [
+  graphite/2
+]
+craftTime: 48
+
+heatRequirement: 20
+maxEfficiency: 2
+
+craftEffect: {
+  type: ParticleEffect
+  particles: 4
+  baseLength: 0
+  length: 24
+  lifetime: 30
+  sizeFrom: 3
+  sizeTo: 0
+  color: "#626F9B00"
+}
+
+drawer: {
+  type: drawMulti
+  drawers: [
+    {//bottom
+      type: drawRegion
+      suffix: "-bottom"
+    }
+    {//sludge
+      type: drawLiquidTile
+      drawLiquid: sludge-liquid
+    }
+    {//sludge-graphite separator
+      type: drawRegion
+      suffix: "-middle"
+    }
+    {//graphite combustion
+      type: drawParticles
+      color: "#95ABD9"
+      particles: 12
+      particleLife: 40
+      particleSize: 3
+      reverse: true
+    }
+    {//default - top
+      type: drawDefault
+    }
+    {//heat input
+      type: drawHeatInput
+      heatColor: "#927D9Ecc"
+    }
+    {//glow
+      type: drawGlowRegion
+      alpha: 0.75
+      color: "#98826DFF"
+    }
+  ]
+}
+
+ambientSound: loopGlow
+ambientSoundVolume: 1.25
+
+research: {
+  parent: combheater
+  objectives: [
+    {
+      type: OnSector
+      preset: sannatel-midlands
+    }
+  ]
+}
+researchCost: [
+  "sannatel-talc/300", "sannatel-iron/500", "sannatel-lithium/250", "sannatel-alkaloid/300"
+]

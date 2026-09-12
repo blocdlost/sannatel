@@ -1,0 +1,23 @@
+name: presence
+localizedName: Presence
+description: "The enemy has constructed a [accent]base[], which is capable of making units and defending itself. [accent]Construct[] your own units with the [accent]Ranger Constructor[] and use clever tactics to destroy and claim the enemy complex."
+
+difficulty: 3
+
+planet: sannatel
+sector: 13
+
+allowLaunchLoadout: false
+allowLaunchSchematics: false
+addStartingItems: true
+overrideLaunchDefaults: true
+alwaysUnlocked: false
+research: {
+  parent: sannatel-canyon
+  objectives: [
+    {
+      type: SectorComplete
+      preset: sannatel-canyon
+    }
+  ]
+}

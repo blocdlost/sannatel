@@ -1,0 +1,17 @@
+name: talc-liquid
+localizedName: "Talc Oil"
+description: "Synthetic greaser and coolant. Used for boosting efficiency of appliances."
+color: "#B1C6B4"
+gasColor: "#DEEFE5"
+barColor: "#B1C6B4"
+flammability: 0
+explosiveness: 0
+heatCapacity: 0.9
+viscosity: 0.4
+temperature: 0.5
+blockReactive: false
+coolant: true
+boilPoint: 10
+databaseTag: liquid
+
+research: sludge-liquid

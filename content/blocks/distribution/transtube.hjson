@@ -1,0 +1,29 @@
+name: transtube
+localizedName: "Transport Tube"
+description: "Transports items."
+databaseTag: distribution
+category: distribution
+type: Duct
+hasItems: true
+itemCapacity: 2
+rotate: true
+invertFlip: true
+conveyorPlacement: true
+health: 50
+underBullets: true
+teamPassable: true
+buildTime: 2
+isDuct: true
+requirements: [
+  "zinc/1"
+]
+crushFragile: true
+speed: 5
+group: transportation
+junctionReplacement: transjunc
+bridgeReplacement: transbridge
+
+research: core-shrapnel
+researchCost: [
+  "zinc/1"
+]

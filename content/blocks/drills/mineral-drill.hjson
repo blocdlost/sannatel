@@ -1,0 +1,47 @@
+name: mineral-drill
+localizedName: "Mineral Drill"
+description: "Advanced drill, capable of extracting softer ores from the ground."
+size: 3
+type: Drill
+requirements: [
+  "zinc/50", "lithium/25", "iron/35"
+]
+category: production
+databaseTag: production
+group: drills
+itemCapacity: 20
+liquidCapacity: 50
+liquidBoostIntensity: 1.414213562
+buildTime: 105
+rotateSpeed: 2.8
+drillTime: 200
+tier: 1
+drawRim: true
+consumes: {
+  power: 0.3
+  liquids: {
+    liquids: [
+      talc-oil/0.08333
+    ]
+    booster: true
+    optional: true
+  }
+}
+drillMultipliers: {
+  talc: 0.75
+}
+heatColor: "#AEA498ff"
+details: "Liquid boost: 2x"
+
+research: {
+  parent: rockbore
+  objectives: [
+    {
+      type: OnSector
+      preset: sannatel-canyon
+    } 
+  ]
+}
+researchCost: [
+  "zinc/100", "lithium/50", "iron/20"
+]

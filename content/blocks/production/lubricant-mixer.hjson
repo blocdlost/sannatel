@@ -1,0 +1,87 @@
+name: lubricant-mixer
+localizedName: "Lubricant Mixer"
+description: "Mixes Sludge with Talc to create Talc Oil."
+requirements: [
+  "sannatel-zinc/180", "sannatel-lithium/60", "sannatel-sodium/120", "sannatel-iron/75"
+]
+category: crafting
+databaseTag: crafting
+type: genericCrafter
+size: 3
+buildTime: 210
+health: 450
+
+hasPower: true
+hasItems: true
+hasLiquids: true
+itemCapacity: 10
+liquidCapacity: 160
+
+consumes: {
+  power: 0.8
+  liquids: {
+    liquids: [
+      sludge-liquid/0.66667
+    ]
+  }
+  items: [
+    sannatel-talc/1
+  ]
+}
+
+outputLiquids: [
+  talc-oil/1.33334
+]
+
+craftTime: 40
+craftEffect: fluxVapor
+
+drawer: {
+ type: drawMulti
+ drawers: [
+  {
+    type: drawRegion
+    suffix: "-bottom"
+  }
+  {
+    type: drawLiquidTile
+    drawLiquid: talc-oil
+    padding: 3
+  }
+  {
+    type: drawRegion
+    suffix: "-rotator"
+    spinSprite: true
+    rotateSpeed: 10
+  }
+  {
+    type: drawLiquidTile
+    drawLiquid: sludge-liquid
+    padding: 10.5
+  }
+  {
+    type: drawDefault
+  }
+  {
+    type: drawGlowRegion
+    alpha: 0.85
+    color: "#656B81DD"
+  }
+ ]
+}
+
+ambientSound: loopSteam
+ambientSoundVolume: 0.75
+
+research: {
+  parent: centrifuge
+  objectives: [
+    {
+      type: SectorComplete
+      preset: sannatel-presence
+    }
+  ]
+}
+researchCost: [
+  "sannatel-zinc/350", "sannatel-lithium/150", "sannatel-sodium/300", "sannatel-iron/150"
+]

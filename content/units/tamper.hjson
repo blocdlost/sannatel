@@ -1,0 +1,114 @@
+name: tamper
+type: flying
+localizedName: Tamper
+description: "Flies over buildings and self-terminates in an explosion."
+databaseTag: "unit-air"
+template: erekirUnitType
+envRequired: 128
+envDisabled: 0
+speed: 3.75
+rotateSpeed: 4
+strafePenalty: 0.4
+accel: 0.08
+drag: 0.1
+health: 300
+hitSize: 10
+faceTarget: false
+flying: true
+range: 24
+omniMovement: false
+
+targetAir: true 
+targetGround: true 
+circleTarget: true
+
+weapons: [
+  {
+    name: selfterminate
+    reload: 1
+    rotate: true
+    rotateSpeed: 360
+    mirror: false
+    top: false
+    x: 0
+    y: 0
+    shootOnDeath: true
+    shoot: {
+      type: ShootPattern
+      shots: 1
+      shotDelay: 0
+      firstShotDelay: 0
+    }
+    bullet: {
+      type: basicBulletType
+      killShooter: true
+      damage: 1
+      splashDamage: 110
+      splashDamagePierce: false
+      splashDamageRadius: 16
+      speed: 0
+      lifetime: 0
+      fragBullets: 1
+      hitSound: unitExplode1
+      shootEffect: none
+      hitEffect: {
+        type: WaveEffect
+        lifetime: 15
+        colorFrom: "#cccccc"
+        colorTo: "#cccccc"
+        sizeFrom: 0
+        sizeTo: 16
+        sides: 12
+      }
+      despawnEffect: {
+        lifetime: 15
+        type: WaveEffect
+        colorFrom: "#cccccc"
+        colorTo: "#cccccc"
+        sizeFrom: 0
+        sizeTo: 16
+        sides: 12
+      }
+      fragBullet: {
+        type: BombBulletType
+        speed: 0
+        lifetime: 5
+        pierce: true
+        damage: 1
+        splashDamage: 85
+        splashDamagePierce: false
+        splashDamageRadius: 24
+        hitSound: explosionDull
+        hitEffect: {
+          type: WaveEffect
+          lifetime: 30
+          colorFrom: "#cccccc"
+          colorTo: "#cccccc"
+          sizeFrom: 0
+         sizeTo: 16
+         sides: 12
+        }
+        despawnEffect: {
+          type: WaveEffect
+          lifetime: 30
+          colorFrom: "#cccccc"
+          colorTo: "#cccccc"
+          sizeFrom: 0
+         sizeTo: 16
+         sides: 12
+        }
+      }
+    }
+  }
+]
+
+engineSize: 0
+
+engines: [
+  {
+    radius: 3
+    rotation: 270
+    x: 0
+    y: -5
+  }
+]

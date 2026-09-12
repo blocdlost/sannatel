@@ -1,0 +1,107 @@
+name: forge
+type: flying
+localizedName: Forge
+description: "Fires a streak of blast shockwaves."
+databaseTag: "unit-air"
+template: ErekirUnitType
+envRequired: 128
+envDisabled: 0
+speed: 3.5
+rotateSpeed: 3.5
+strafePenalty: 0.4
+accel: 0.08
+drag: 0.1
+health: 1600
+hitSize: 16
+faceTarget: true
+flying: true
+range: 60
+omniMovement: true
+
+targetAir: true 
+targetGround: true 
+
+weapons: [
+  {
+    name: forge-weapon
+    x: 0
+    y: 0
+    mirror: false
+    top: false
+    rotate: false
+    reload: 90
+    shootSound: explosionObviate
+    shoot: {
+      type: shootPattern
+      shots: 1
+      shotDelay: 0
+    }
+    bullet: {
+      type: artilleryBulletType
+      width: 0
+      height: 0
+      hitSize: 1
+      pierce: true
+      pierceBuilding: true
+      damage: 0
+      lifetime: 12
+      speed: 5
+      trailColor: "#C85C51"
+      trailEffect: {
+        type: ParticleEffect
+        particles: 3
+        lifetime: 15
+        length: 30
+        baseLength: 0
+        cone: 360
+        colorFrom: "#C85C51"
+        colorTo: "#C85C51"
+        sizeFrom: 5
+      }
+      bulletInterval: 5
+      intervalBullet: {
+        width: 0
+        height: 0
+        hitSize: 1
+        pierce: true
+        pierceBuilding: true
+        type: bombBulletType
+        collidesAir: true
+        collidesGround: true
+        splashDamage: 82.5
+        splashDamageRadius: 28
+        frontColor: "#C85C51"
+        backColor: "#C85C51"
+        lifetime: 1
+        hitShake: 1
+        despawnShake: 0.5
+        hitSound: explosionCrawler
+        hitEffect: {
+          type: WaveEffect
+          lifetime: 12
+          colorFrom: "#C85C51"
+          colorTo: "#C85C51"
+          sizeFrom: 1
+          sizeTo: 18
+          strokeFrom: 4
+          sides: 16
+        }
+      }
+    }
+  }
+]
+
+engines: [
+  {
+    x: 7.5
+    y: -9
+    rotation: 315
+    radius: 2.5
+  }
+  {
+    x: -7.5
+    y: -9
+    rotation: 225
+    radius: 2.5
+  }
+]

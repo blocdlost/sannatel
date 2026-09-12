@@ -1,0 +1,40 @@
+name: explorer-constructor
+localizedName: "Explorer Constructor"
+description: "Constructs tier 1 explorer type units."
+requirements: [
+  "alkaloid/45", "zinc/135", "sodium/110"
+]
+health: 495
+category: units
+databaseTag: units
+type: UnitFactory
+size: 3
+rotate: true
+buildTime: 315
+
+plans: [
+  {
+    unit: reverb
+    requirements: [
+      "alkaloid/24", "lithium/28"
+    ]
+    time: 1620
+  }
+]
+
+consumes: {
+  power: 0.95
+}
+
+research: {
+  parent: ranger-constructor 
+  objectives: [
+    {
+      type: OnSector
+      preset: sannatel-woodedvalley
+    }
+  ]
+}
+researchCost: [
+  "alkaloid/100", "zinc/250", "sodium/150"
+]

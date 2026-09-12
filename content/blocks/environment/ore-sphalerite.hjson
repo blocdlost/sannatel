@@ -1,0 +1,6 @@
+name: zinc-ore
+localizedName: Sphalerite
+description: "Pure Zinc deposits. Cannot be mined by most drills."
+type: OreBlock
+itemDrop: zinc
+variants: 3

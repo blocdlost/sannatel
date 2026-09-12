@@ -1,0 +1,29 @@
+name: trans-unloader
+localizedName: "Transport Unloader"
+description: "Unloads resources from storages of buildings. Cannot unload from core."
+type: DirectionalUnloader
+health: 80
+requirements: [
+  "iron/2", "lithium/5"
+]
+crushFragile: true
+speed: 5
+allowCoreUnload: false
+category: distribution
+databaseTag: distribution
+group: transportation
+buildTime: 40
+rotate: true
+invertFlip: true
+underBullets: true
+hasItems: false
+
+research: {
+  parent: transrouter
+  objectives: [
+    storage-box
+  ]
+}
+researchCost: [
+  "iron/1"
+]

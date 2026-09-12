@@ -1,0 +1,19 @@
+name: graphite-wall
+localizedName: "Graphite Wall"
+type: Wall
+description: "Protects buildings from enemy projectiles. Absorbs lasers and lightning arcs."
+absorbLasers: true
+insulated: true
+category: defense
+databaseTag: defense
+health: 475
+group: walls
+requirements: [
+  "graphite/6"
+]
+buildTime: 9
+
+research: ironwall
+researchCost: [
+  "graphite/48"
+]

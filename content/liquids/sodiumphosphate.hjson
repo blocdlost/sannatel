@@ -1,0 +1,21 @@
+name: sodium-phosphate
+localizedName: "Sodium Phosphate"
+description: "Flammable gas. Used in heat generation and creation of Phosphor."
+details: "Gushes out of Sodium geysers from underground pockets. Probably originates from volcanic activities."
+color: "#CCC9A3"
+gasColor: "#CCC9A3"
+barColor: "#CCC9A3"
+flammability: 0.45
+temperature: 0.8
+heatCapacity: 0
+viscosity: 0.5
+explosiveness: 0
+blockReactive: false
+coolant: false
+boilPoint: 0
+databaseTag: liquid
+gas: true
+
+research: {
+  parent: sodium
+}

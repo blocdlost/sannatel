@@ -1,0 +1,18 @@
+name: large-iron-door
+localizedName: "Large Iron Door"
+description: "A wall that opens automatically in front of allied units and lets them move through."
+type: AutoDoor
+category: defense
+databaseTag: defense
+health: 1720
+size: 2
+group: walls
+requirements: [
+  "sannatel-iron/20", "sannatel-alkaloid/12"
+]
+buildTime: 60
+
+research: irondoor
+researchCost: [
+  "sannatel-iron/48", "sannatel-alkaloid/24"
+]

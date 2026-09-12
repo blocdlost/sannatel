@@ -1,0 +1,26 @@
+category: production
+databaseTag: production
+name: soil-drill
+localizedName: "Soil Drill"
+description: "Extracts soils and soft resources from the ground."
+size: 2
+requirements: [
+    "sannatel-zinc/12",
+  ]
+blockedItems: [
+  "sannatel-talc"
+]
+type: Drill
+rotateSpeed: 1.5
+drillTime: 250
+tier: 1
+drawRim: false
+buildTime: 35
+hasLiquids: false
+liquidBoostIntensity: 1
+group: drills
+
+research: core-shrapnel
+researchCost: [
+  "sannatel-zinc/12"
+]

@@ -1,0 +1,20 @@
+name: under-trans
+localizedName: "Transport Underflow Gate"
+type: OverflowDuct
+requirements: [
+  "zinc/2", "lithium/1"
+]
+health: 45
+underBullets: true
+crushFragile: true
+instantTransfer: true
+category: distribution
+databaseTag: distribution
+buildTime: 24
+invert: true
+group: transportation
+
+research: transrouter
+researchCost: [
+  "lithium/1"
+]

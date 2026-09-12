@@ -1,0 +1,40 @@
+name: ranger-constructor
+localizedName: "Ranger Constructor"
+description: "Constructs tier 1 ranger type units."
+requirements: [
+  "alkaloid/25", "zinc/150", "lithium/70"
+]
+health: 480
+category: units
+databaseTag: units
+type: UnitFactory
+size: 3
+rotate: true
+buildTime: 300
+
+plans: [
+  {
+    unit: tank-obstacle
+    requirements: [
+      "alkaloid/30", "zinc/36"
+    ]
+    time: 1500
+  }
+]
+
+consumes: {
+  power: 0.75
+}
+
+research: {
+  parent: core-shrapnel
+  objectives: [
+    {
+      type: OnSector
+      preset: sannatel-presence
+    }
+  ]
+}
+researchCost: [
+  "zinc/200", "lithium/100"
+]

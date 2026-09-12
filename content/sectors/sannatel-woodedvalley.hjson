@@ -1,0 +1,23 @@
+name: wooded-valley
+localizedName: "Wooded Valley"
+description: "In the valley once lied a lush forest, not that any of that ever happening is visible anymore. Construct and use [accent]Explorer[] units to walk over the rough terrain and capture the sector."
+
+difficulty: 3
+
+planet: sannatel
+sector: 18
+
+allowLaunchLoadout: false
+allowLaunchSchematics: false
+addStartingItems: true
+overrideLaunchDefaults: true
+alwaysUnlocked: false
+research: {
+  parent: sannatel-presence
+  objectives: [
+    {
+      type: SectorComplete
+      preset: sannatel-presence
+    }
+  ]
+}

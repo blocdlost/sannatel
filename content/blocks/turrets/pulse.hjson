@@ -1,0 +1,86 @@
+name: pulse
+localizedName: Pulse
+description: "Blasts away enemies with lots of small shrapnel."
+size: 2
+requirements: [
+  "zinc/65", "sodium/40"
+]
+buildTime: 195
+category: turret
+databaseTag: turret
+health: 400
+type: ItemTurret
+range: 72
+rotateSpeed: 10
+coolantMultiplier: 2.75
+reload: 25.68
+maxAmmo: 30
+ammoPerShot: 2
+targetAir: true 
+targetGround: true 
+shootSound: shootDiffuse,
+group: turrets
+
+hasLiquids: true
+liquidCapacity: 80
+
+shoot: {
+
+ type: ShootSpread
+ shots: 9,
+ spread: 4,
+ 
+}
+
+consumes: {
+  coolant: {
+    type: consumeCoolant
+    allowLiquid: true
+    allowGas: false
+    amount: 0.66667
+ }
+}
+
+ammoTypes: {
+  zinc: { #245 DPS
+    type: basicBulletType
+    damage: 1
+    splashDamage: 15
+    knockback: 3
+    splashDamageRadius: 16
+    splashDamagePierce: true
+    speed: 4
+    lifetime: 14
+    ammoMultiplier: 1
+
+    lifeScaleRandMin: 0.3
+    lifeScaleRandMax: 1.1
+  }
+  iron: { #295 DPS
+    type: basicBulletType
+    reloadMultiplier: 0.7
+    damage: 3.5
+    splashDamage: 23
+    knockback: 2
+    splashDamageRadius: 16
+    splashDamagePierce: true
+    speed: 3
+    lifetime: 18.67
+    ammoMultiplier: 2
+    pierce: true
+    pierceCap: 1
+
+    lifeScaleRandMin: 0.6
+    lifeScaleRandMax: 1.1
+  }
+}
+
+research: {
+  parent: core-shrapnel
+  objectives: [
+    lithium
+  ]
+}
+researchCost: [
+  "zinc/50", "sodium/25"
+]

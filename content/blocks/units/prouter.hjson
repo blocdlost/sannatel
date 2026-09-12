@@ -1,0 +1,18 @@
+name: payloadrouter
+localizedName: "Payload Track Router"
+description: "Distributes inputted payloads into 3 directions. Only able to input payloads into valid buildings."
+type: PayloadRouter
+size: 3
+moveTime: 30
+moveForce: 150
+payloadLimit: 3
+pushUnits: true
+buildTime: 25
+health: 275
+
+requirements: [
+  "alkaloid/15", "zinc/80"
+]
+
+category: units 
+databaseTag: units 

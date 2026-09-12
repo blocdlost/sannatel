@@ -1,0 +1,20 @@
+name: power-trans
+localizedName: "Power Transmitter"
+description: "Transmits power over distances via power lasers."
+type: PowerNode
+maxNodes: 5
+size: 2
+laserRange: 18
+requirements: [
+  "sannatel-lithium/12"
+]
+health: 110
+category: power
+databaseTag: power
+buildTime: 30
+group: power
+
+research: chem-react-chamber
+researchCost: [
+  "sannatel-lithium/30"
+]

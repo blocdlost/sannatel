@@ -1,0 +1,77 @@
+name: chemical-neutral-chamber
+localizedName: "Chemical Neutral Chamber"
+description: "Uses the acidity of Chemicalia and alkalinity of Alkaloid to react with each other. Requires small amount of heat to operate."
+details: "The acid-base reaction between the two materials make water, which when heated turns into steam and rotates turbines to generate power."
+type: VariableReactor
+size: 3
+category: power
+databaseTag: power
+group: power 
+requirements: [
+  "lithium/250", "zinc/480", "alkaloid/75", "talc/185"
+]
+buildTime: 300
+
+consumes: {
+ items: [
+  alkaloid/10
+ ]
+ liquids: [
+  chemicalia-liquid/0.83334
+ ]
+}
+
+maxHeat: 5
+unstableSpeed: 0
+warmupSpeed: 1
+powerProduction: 14.75
+health: 600
+itemCapacity: 10
+#itemDuration: 50
+liquidCapacity: 100
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: "-bottom"
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: chemicalia-liquid
+      padding: 3
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatInput
+      heatColor: "#927D9Ecc"
+    }
+    {
+      type: DrawGlowRegion
+      alpha: 0.5
+      color: "#A0BCA5FF"
+    }
+    {
+      type: DrawSoftParticles
+    }
+  ]
+}
+
+ambientSound: loopBio
+ambientSoundVolume: 0.5
+
+research: {
+  parent: chemgen
+  objectives: [
+    {
+      type: SectorComplete
+      preset: sannatel-midlands
+    }
+  ]
+}
+researchCost: [
+  "lithium/500", "zinc/1000", "alkaloid/200", "talc/300"
+]

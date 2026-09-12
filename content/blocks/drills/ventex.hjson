@@ -1,0 +1,52 @@
+name: vent-extractor
+localizedName: "Vent Extractor"
+description: "Extracts Sodium-Phosphate from Sodium vents. Requires power."
+type: AttributeCrafter
+
+baseEfficiency: 0
+minEfficiency: 1
+displayEfficiencyScale: 1
+
+attribute: gaseous
+
+category: production
+databaseTag: production
+group: drills
+
+size: 3
+requirements: [
+  "zinc/350", "sodium/185", graphite/50
+]
+buildTime: 150
+health: 600
+
+hasItems: false
+hasLiquids: true
+liquidCapacity: 80
+
+outputLiquids: [
+  sodiumphosphate/0.66667
+]
+consumes: {
+  power: 1.25
+}
+craftEffect: ventSteam
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: "-bottom"
+    }
+    {
+      type: DrawRegion
+      suffix: "-rotator"
+      spinSprite: true 
+      rotateSpeed: 10
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
