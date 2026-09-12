@@ -4,7 +4,7 @@ description: "Constructs tier 1 pilot type units."
 requirements: [
   "alkaloid/60", "iron/180", "zinc/235"
 ]
-health: 320
+health: 510
 category: units
 databaseTag: units
 type: UnitFactory

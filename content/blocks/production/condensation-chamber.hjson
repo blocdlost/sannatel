@@ -58,11 +58,11 @@ drawer: {
         }
         {
         type: DrawHeatOutput
-        heatColor: "#927D9Ecc"
+        heatColor: "#927d9e99"
         }
         {
         type: DrawGlowRegion
-        alpha: 0.5
+        alpha: 0.25
         color: "#98826DFF"
         }
     ]
