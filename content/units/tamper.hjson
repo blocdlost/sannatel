@@ -118,8 +118,8 @@ weapons: [
             {
             type: ParticleEffect
             particles: 5
-            lifetime: 45
-            length: 48
+            lifetime: 30
+            length: 52
             cone: 360
             sizeFrom: 4
             colorFrom: "#cccccc"

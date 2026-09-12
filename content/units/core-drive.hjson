@@ -44,13 +44,16 @@ weapons: [
         display: true
         rotate: true
         rotateSpeed: 12
-        reload: 10
+        targetInterval: 10
+        targetSwitchInterval: 10
         controllable: false
         autoTarget: true
         bullet: {
             type: PointLaserBulletType
-            lifetime: 8
+            maxRange: 60
             damage: 15
+            hitEffect: pointHit
+            shootSound: shootLaser
         }
     }
 ]
