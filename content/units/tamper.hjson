@@ -101,6 +101,8 @@ weapons: [
             colorFrom: "#cccccc"
             colorTo: "#cccccc"
             }
+          ]
+        }
         despawnEffect: {
           type: MultiEffect
           effects: [
