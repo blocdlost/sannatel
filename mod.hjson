@@ -1,0 +1,12 @@
+{
+  displayName: "[#BCC38D]Sannatel"
+  author: BlocdLost,
+  description: '''
+  Sannatel planet
+  MAKE SURE TO ALWAYS ENABLE "CLEAR SECTOR WHEN LOST"!
+  ''',
+  minGameVersion: "158",
+  name: Sannatel,
+  subtitle: "fucking around",
+  version: "0.1.28",
+}
