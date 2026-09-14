@@ -14,7 +14,7 @@ buildTime: 300
 
 plans: [
   {
-    unit: tank-obstacle
+    unit: obstacle
     requirements: [
       "alkaloid/30", "zinc/36"
     ]
