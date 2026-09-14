@@ -14,7 +14,7 @@ buildTime: 375
 
 upgrades: [
   [
-    tank-obstacle
+    obstacle
     barrier
   ]
 ]
