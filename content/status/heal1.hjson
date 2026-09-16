@@ -1,0 +1,9 @@
+name: "Healing I" //affects movement speed only
+description: "Constantly heals units."
+
+intervalDamage: -35
+intervalDamageTime: 30 //2*35 per second
+
+color: "#60BF60"
+effect: regenParticle
+effectChance: 0.025

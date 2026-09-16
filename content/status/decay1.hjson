@@ -8,14 +8,14 @@ intervalDamageTime: 20 //3*25 per second
 color: "#4D2E2E"
 effect: {
     type: ParticleEffect
-    particles: 3
+    particles: 5
     line: true
-    length: 24
+    length: 64
     baseLength: 5
-    lifetime: 20
+    lifetime: 25
     colorFrom: "#E6A245"
     colorTo: "#4D2E2E"
-    sizeFrom: 3
+    sizeFrom: 5
     sizeTo: 0
 }
-effectChance: 0.2
+effectChance: 0.05
