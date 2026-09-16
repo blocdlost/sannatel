@@ -6,7 +6,7 @@ databaseTag: "unit-air"
 template: ErekirUnitType
 envRequired: 128
 envDisabled: 0
-hitSize: 9
+hitSize: 12
 speed: 5.35
 rotateSpeed: 8
 health: 280
@@ -29,25 +29,41 @@ faceTarget: false
 range: 60
 maxRange: 60
 
-engineSize: 0
+engineSize: 2.5
 itemCapacity: 80
 drag: 0.1
 accel: 0.1
+
+engines: [
+    {
+      rotation: 315,
+      radius: 2.5,
+      x: 4,
+      y: -6,
+    },
+    {
+      x: -4,
+      y: -6,
+      radius: 2.5,
+      rotation: 225,
+    },
+  ]
+
 
 weapons: [
     {
         name: drive-pointdefense
         type: PointDefenseWeapon
-        x: 2
+        x: 5
         y: 0
         mirror: true
         top: true
         display: true
         rotate: true
         rotateSpeed: 12
-        reload: 30
-        targetInterval: 30
-        targetSwitchInterval: 30
+        reload: 25
+        targetInterval: 10
+        targetSwitchInterval: 10
         controllable: false
         autoTarget: true
         bullet: {
