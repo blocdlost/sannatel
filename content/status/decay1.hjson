@@ -13,9 +13,9 @@ effect: {
     length: 64
     baseLength: 5
     lifetime: 25
-    colorFrom: "#E6A245"
+    colorFrom: "#CC5252"
     colorTo: "#4D2E2E"
     sizeFrom: 5
     sizeTo: 0
 }
-effectChance: 0.05
+effectChance: 0.075

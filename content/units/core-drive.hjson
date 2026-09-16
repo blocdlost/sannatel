@@ -29,7 +29,7 @@ faceTarget: false
 range: 72
 maxRange: 72
 
-engineSize: 2
+engineSize: 2.25
 engineOffset: 8
 itemCapacity: 80
 drag: 0.1
@@ -39,12 +39,12 @@ engines: [
     {
       rotation: 315,
       radius: 2.5,
-      x: 6.5,
-      y: -8,
+      x: 6.65,
+      y: -7.9,
     },
     {
-      x: -6.5,
-      y: -8,
+      x: -6.65,
+      y: -7.9,
       radius: 2.5,
       rotation: 225,
     },
