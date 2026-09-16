@@ -11,7 +11,7 @@ speed: 5.35
 rotateSpeed: 8
 health: 280
 armor: 2
-mineRange: 180
+mineRange: 120
 buildRange: 220
 strafePenalty: 0.4
 buildSpeed: 1

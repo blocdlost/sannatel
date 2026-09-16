@@ -11,7 +11,7 @@ hitSize: 12
 faceTarget: true
 rotateSpeed: 3.5
 speed: 0.773333
-groundLayer: 45
+groundLayer: 59
 
 targetAir: true
 targetGround: true
