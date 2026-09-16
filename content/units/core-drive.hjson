@@ -26,10 +26,11 @@ mineTier: 10
 mineSpeed: 7.5
 faceTarget: false
 
-range: 60
-maxRange: 60
+range: 72
+maxRange: 72
 
 engineSize: 2.5
+engineOffset: 8
 itemCapacity: 80
 drag: 0.1
 accel: 0.1
@@ -38,12 +39,12 @@ engines: [
     {
       rotation: 315,
       radius: 2.5,
-      x: 4,
-      y: -6,
+      x: 5,
+      y: -7.5,
     },
     {
-      x: -4,
-      y: -6,
+      x: -5,
+      y: -7.5,
       radius: 2.5,
       rotation: 225,
     },
@@ -54,14 +55,14 @@ weapons: [
     {
         name: drive-pointdefense
         type: PointDefenseWeapon
-        x: 5
-        y: 0
+        x: 4
+        y: 1
         mirror: true
         top: true
         display: true
         rotate: true
         rotateSpeed: 12
-        reload: 25
+        reload: 12
         targetInterval: 10
         targetSwitchInterval: 10
         controllable: false
