@@ -1,11 +1,10 @@
 name: "Decay I" //affects movement speed only
-description: "Constantly damages units."
+description: "Constantly damages and slows slightly down units."
 
 speedMultiplier: 0.95
 intervalDamage: 25
 intervalDamageTime: 20 //3*25 per second
 
-color: "#4D2E2E"
 effect: {
     type: ParticleEffect
     particles: 5
@@ -13,8 +12,8 @@ effect: {
     length: 64
     baseLength: 5
     lifetime: 25
-    colorFrom: "#CC5252"
-    colorTo: "#4D2E2E"
+    colorFrom: "#CC5252ff"
+    colorTo: "#4D2E2E11"
     sizeFrom: 5
     sizeTo: 0
 }

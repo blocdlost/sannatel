@@ -1,7 +1,7 @@
-name: "Healing I"
+name: "Healing III"
 description: "Constantly heals units."
 
-damage: -0.5
+damage: -1.16667
 
 effect: regenParticle
-effectChance: 0.025
+effectChance: 0.075

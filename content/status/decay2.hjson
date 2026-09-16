@@ -1,0 +1,21 @@
+name: "Decay II" //affects movement speed and reload speed
+description: "Constantly damages units, while slowing down movement and reload speed."
+
+speedMultiplier: 0.8
+reloadMultiplier: 0.85
+intervalDamage: 40
+intervalDamageTime: 20 //3*40 per second
+
+effect: {
+    type: ParticleEffect
+    particles: 4
+    line: true
+    length: 72
+    baseLength: 5
+    lifetime: 27
+    colorFrom: "#CC5252ff"
+    colorTo: "#4D2E2E11"
+    sizeFrom: 5
+    sizeTo: 0
+}
+effectChance: 0.1
