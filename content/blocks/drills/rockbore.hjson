@@ -2,6 +2,7 @@ name: rock-bore
 localizedName: "Rock Bore"
 description: "Extracts resources from walls."
 size: 2
+health: 175
 requirements: [
   "sannatel-zinc/25", "sannatel-lithium/12"
 ]
@@ -13,7 +14,7 @@ type: BeamDrill
 drillTime: 193
 range: 2
 drillMultipliers: {
-  "sannatel-iron": 0.75
+  iron: 0.75
 }
 consumes: {
   power: 0.2

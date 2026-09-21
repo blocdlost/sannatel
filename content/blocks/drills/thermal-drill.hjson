@@ -1,0 +1,29 @@
+name: Thermal Drill 
+description: "Stronger and more efficient drill than its smaller counterparts. Capable of extracting Plutonium."
+size: 4
+type: Drill
+health: 650
+requirements: [
+    zinc/180, lithium/85, iron/120, ferric-alloy/35
+]
+category: production
+databaseTag: production
+group: drills
+itemCapacity: 20
+liquidCapacity: 50
+buildTime: 225
+rotateSpeed: 3.6
+drillTime: 150
+tier: 5
+drawRim: true
+consumes: {
+  power: 0.75
+  liquids: {
+    liquids: [
+      talc-oil/0.26667
+    ]
+    booster: true
+    optional: true
+  }
+}
+liquidBoostIntensity: 2

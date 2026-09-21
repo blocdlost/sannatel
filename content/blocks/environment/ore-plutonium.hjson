@@ -2,3 +2,6 @@ name: Plutonium Ore
 type: OreBlock
 itemDrop: plutonium
 variants: 3
+attributes: {
+  contains-plutonium: 0.0625
+}

@@ -4,6 +4,7 @@ name: soil-drill
 localizedName: "Soil Drill"
 description: "Extracts soils and soft resources from the ground."
 size: 2
+health: 150
 requirements: [
     "sannatel-zinc/12",
   ]
