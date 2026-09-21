@@ -1,0 +1,16 @@
+name: Molten Lithium
+description: "Pure Lithium in Liquid form. Used in forming of Lithium Molds and top tier units."
+color: "#987C62"
+gasColor: "#987C62"
+barColor: "#987C62"
+flammability: 0
+explosiveness: 0
+heatCapacity: 0
+viscosity: 0.45
+temperature: 0.9
+blockReactive: false
+coolant: false
+boilPoint: 10
+databaseTag: liquid
+
+research: lithium

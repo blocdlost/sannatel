@@ -1,0 +1,19 @@
+name: Nuclear Waste
+description: "Radioactive and corrosive liquid. Byproduct of Plutonium processing."
+details: "The liquid hides more than meets the eye, more research is required to map out its capabilities. Handle carefully."
+color: "#38D82B"
+gasColor: "#38D82B"
+barColor: "#38D82B"
+flammability: 0
+temperature: 0.65
+heatCapacity: 0.1
+viscosity: 0.7
+explosiveness: 0.15
+blockReactive: true 
+coolant: false
+boilPoint: 3
+databaseTag: liquid
+
+research: {
+  parent: plutonium
+}
