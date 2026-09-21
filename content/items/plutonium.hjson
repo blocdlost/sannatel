@@ -1,0 +1,11 @@
+name: Plutonium
+description: "Radioactive and reactive material. Used in advanced power generation and lategame equipment."
+research: lithium
+hardness: 5
+cost: 8
+buildable: true
+color: "#E7BE6E"
+lowPriority: false
+radioactivity: 0.8
+
+shownPlanets: [sannatel]

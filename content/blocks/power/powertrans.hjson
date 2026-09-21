@@ -1,6 +1,6 @@
 name: power-trans
 localizedName: "Power Transmitter"
-description: "Transmits power over distances via power lasers."
+description: "Transmits power over distances via power lasers. Only capable of connecting to very few appliances."
 type: PowerNode
 maxNodes: 5
 size: 2

@@ -1,0 +1,11 @@
+name: Lithium Cell
+description: "A cell composed of pure Lithium, capable of storing high amounts of charge. Used in advanced technology and heat generation."
+research: lithium
+hardness: 10
+cost: 6
+buildable: true
+color: "#8C725A"
+lowPriority: false
+charge: 0.85
+
+shownPlanets: [sannatel]

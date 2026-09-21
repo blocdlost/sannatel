@@ -1,0 +1,9 @@
+name: Ferric Alloy
+description: "Alloy of Zinc and Iron, very durable and heat resistant material. Used in advanced defensive and offensive equipment."
+research: iron
+hardness: 10
+cost: 8
+buildable: true
+color: "#5BA0AC"
+
+shownPlanets: [sannatel]

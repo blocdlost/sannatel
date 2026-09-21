@@ -4,7 +4,7 @@ description: "Transports fluids. Only accepts inputs on sides from other Liquid 
 requirements: [
  "sannatel-iron/1", graphite/1
 ]
-type: Conduit
+type: ArmoredConduit
 liquidCapacity: 20
 health: 180
 category: liquid
