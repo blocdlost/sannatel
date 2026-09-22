@@ -1,10 +1,10 @@
 name: Thermal Drill 
-description: "Stronger and more efficient drill than its smaller counterparts. Capable of extracting Plutonium."
+description: "The most advanced drill. Capable of extracting ground Zinc."
 size: 4
 type: Drill
 health: 650
 requirements: [
-    zinc/180, lithium/85, iron/120, ferric-alloy/35
+    zinc/230, lithium/120, iron/180, ferric-alloy/90, plutonium/64
 ]
 category: production
 databaseTag: production
@@ -14,7 +14,7 @@ liquidCapacity: 80
 buildTime: 225
 rotateSpeed: 3.6
 drillTime: 150
-tier: 5
+tier: 10
 drawRim: true
 consumes: {
   power: 0.75
@@ -26,6 +26,7 @@ consumes: {
     optional: true
   }
 }
+heatColor: "#7BCCD3ff"
 liquidBoostIntensity: 1.65831
 details: "Liquid boost: 2.75x"
 drillMultipliers: {
