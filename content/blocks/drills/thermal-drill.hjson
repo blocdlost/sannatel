@@ -10,7 +10,7 @@ category: production
 databaseTag: production
 group: drills
 itemCapacity: 20
-liquidCapacity: 50
+liquidCapacity: 80
 buildTime: 225
 rotateSpeed: 3.6
 drillTime: 150
@@ -26,4 +26,8 @@ consumes: {
     optional: true
   }
 }
-liquidBoostIntensity: 2
+liquidBoostIntensity: 1.65831
+details: "Liquid boost: 2.75x"
+drillMultipliers: {
+  talc: 0.8
+}
