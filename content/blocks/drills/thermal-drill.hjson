@@ -1,5 +1,5 @@
 name: Thermal Drill 
-description: "The most advanced drill. Capable of extracting ground Zinc."
+description: "The most advanced drill. Capable of extracting ground Zinc. Requires lubrication to work, can be boosted with Sodium-Phosphate."
 size: 4
 type: Drill
 health: 650
@@ -20,15 +20,17 @@ consumes: {
   power: 0.75
   liquids: {
     liquids: [
-      talc-oil/0.26667
+      sodiumphosphate/0.16667
+      talc-oil/0.33333
     ]
     booster: true
     optional: true
   }
 }
-heatColor: "#7BCCD3ff"
+heatColor: "#A6FFA7ff"
 liquidBoostIntensity: 1.65831
 details: "Liquid boost: 2.75x"
 drillMultipliers: {
-  talc: 0.8
+  talc: 0.8 //0.24 per tile
+  zinc: 1.08333 //0.1 per tile
 }
