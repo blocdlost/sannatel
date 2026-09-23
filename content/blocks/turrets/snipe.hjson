@@ -43,6 +43,8 @@ consumes: {
  }
 }
 
+squareSprite: false
+
 ammoTypes: {
   lithium: { #435 DPS
     type: basicBulletType

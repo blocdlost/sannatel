@@ -24,6 +24,8 @@ buildTime: 120
 group: power
 generateEffect: formsmoke
 
+squareSprite: false
+
 research: soil-drill
 researchCost: [
   "sannatel-zinc/25", "sannatel-sodium/25"

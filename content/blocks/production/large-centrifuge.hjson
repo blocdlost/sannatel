@@ -38,6 +38,8 @@ craftTime: 20
 
 craftEffect: blastsmoke
 
+squareSprite: false
+
 drawer: {
   type: DrawMulti
   drawers: [

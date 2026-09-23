@@ -14,6 +14,8 @@ group: projectors
 buildTime: 390
 coreMerge: false
 
+squareSprite: false
+
 research: storage-box
 researchCost: [
   "zinc/500", "iron/500", graphite/250

@@ -33,6 +33,8 @@ shoot: {
   spread: 5
 }
 
+squareSprite: false
+
 ammoTypes: {
   sodiumphosphate: { #~700 DPS; max-min range 250-2125 DPS 
     showStats: true

@@ -19,15 +19,15 @@ buildTime: 300
 health: 500
 consumes: {
   power: 1.25
-  liquids: {
-    liquids: [
-     sludge-liquid/0.3333
-    ]
-    optional: true
+  liquid: {
+    liquid: sludge-liquid
+    amount: 0.33333
     booster: true
+    optional: true
   }
 }
 
+squareSprite: false
 drawer: {
   type: DrawMulti
   drawers: [

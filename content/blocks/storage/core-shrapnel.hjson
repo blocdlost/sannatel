@@ -16,6 +16,8 @@ size: 3
 category: effect
 databaseTag: effect
 
+squareSprite: false
+
 research: {
   planet: sannatel
   root: true

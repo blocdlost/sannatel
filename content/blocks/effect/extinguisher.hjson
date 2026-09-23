@@ -105,6 +105,8 @@ ammoTypes: {
   }
 }
 
+squareSprite: false
+
 research: {
   parent: rejuv
   objectives: [

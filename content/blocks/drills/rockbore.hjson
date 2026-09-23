@@ -34,7 +34,6 @@ hasLiquids: true
 hasItems: true
 itemCapacity: 10
 group: drills
-details: "Liquid Boost: 3.5x"
 
 research: {
   parent: soil-drill

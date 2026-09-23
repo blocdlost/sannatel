@@ -26,6 +26,7 @@ consumes: {
 craftTime: 75
 craftEffect: formsmoke
 
+squareSprite: false
 drawer: {
   type: drawMulti
   drawers: [

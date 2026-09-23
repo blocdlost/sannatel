@@ -36,6 +36,8 @@ outputLiquids: [
 craftTime: 40
 craftEffect: fluxVapor
 
+squareSprite: false
+
 drawer: {
  type: drawMulti
  drawers: [

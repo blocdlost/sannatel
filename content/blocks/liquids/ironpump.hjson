@@ -17,6 +17,8 @@ group: liquids
 liquidCapacity: 160
 pumpAmount: 0.074075
 
+squareSprite: false
+
 research: {
   parent: soil-drill
   objectives: [

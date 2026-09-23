@@ -27,6 +27,7 @@ itemDuration: 37.5
 liquidCapacity: 60
 generateEffect: formsmoke
 
+squareSprite: false
 drawer: {
   type: DrawMulti
   drawers: [

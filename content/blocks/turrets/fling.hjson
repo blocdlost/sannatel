@@ -44,6 +44,8 @@ consumes: {
   }
 }
 
+squareSprite: false
+
 ammoTypes: {
   sodium: { #130 DPS
     pierce: true

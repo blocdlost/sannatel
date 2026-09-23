@@ -37,6 +37,7 @@ consumes: {
 craftEffect: ventSteam
 craftTime: 20
 
+squareSprite: false
 drawer: {
   type: DrawMulti
   drawers: [

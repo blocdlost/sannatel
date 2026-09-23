@@ -18,6 +18,8 @@ category: effect
 databaseTag: effect
 unitCapModifier: 13
 
+squareSprite: false
+
 research: {
   parent: core-shrapnel
   objectives: [

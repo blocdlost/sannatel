@@ -30,6 +30,8 @@ breakSound: blockBreak2
 craftEffect: pulverizeMedium
 hasPower: true
 
+squareSprite: false
+
 research: {
   parent: centrifuge
 }

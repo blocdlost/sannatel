@@ -27,5 +27,7 @@ placeSound: blockPlace2
 breakSound: blockBreak2
 craftEffect: pulverizeMedium
 
+squareSprite: false
+
 research: soil-drill
 researchCostMultiplier: 0.01691474966

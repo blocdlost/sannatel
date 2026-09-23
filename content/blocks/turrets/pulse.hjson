@@ -41,6 +41,8 @@ consumes: {
  }
 }
 
+squareSprite: false
+
 ammoTypes: {
   zinc: { #245 DPS
     type: basicBulletType

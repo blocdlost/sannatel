@@ -14,6 +14,8 @@ group: projectors
 buildTime: 255
 coreMerge: false
 
+squareSprite: false
+
 research: {
   parent: core-shrapnel
   objectives: [
