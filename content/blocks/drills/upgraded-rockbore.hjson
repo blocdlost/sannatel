@@ -1,0 +1,37 @@
+name: Upgraded Rock Bore
+description: "Extracts resources from walls. More efficient than its standard counterpart and capable of mining Plutonium."
+size: 3
+health: 480
+requirements: [
+  "sannatel-zinc/100", "sannatel-lithium/80", iron/75, ferric-alloy/24
+]
+buildTime: 180
+tier: 5
+category: production
+databaseTag: production
+type: BeamDrill
+drillTime: 100
+range: 3
+drillMultipliers: {
+  iron: 0.85
+}
+consumes: {
+  power: 1.2
+ liquids: {
+  liquids: [
+    sodiumphosphate/0.167
+  ]
+  optional: true
+  booster: true
+ }
+}
+optionalBoostIntensity: 3
+blockedItems: [
+ "beryllium", "graphite", "tungsten", "thorium"
+]
+liquidCapacity: 50
+hasLiquids: true
+hasItems: true
+itemCapacity: 20
+group: drills
+details: "Liquid Boost: 3"
