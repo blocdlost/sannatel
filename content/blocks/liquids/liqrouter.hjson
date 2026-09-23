@@ -11,7 +11,7 @@ requirements: [
 liquidCapacity: 50
 health: 100
 liquidPadding: 1
-
+underBullets: true
 research: liqchannel
 researchCost: [
   "sannatel-iron/8"

@@ -20,10 +20,9 @@ tier: 1
 drawRim: true
 consumes: {
   power: 0.3
-  liquids: {
-    liquids: [
-      talc-oil/0.08333
-    ]
+  liquid: {
+    liquid: talc-oil
+    amount: 0.08333
     booster: true
     optional: true
   }
@@ -32,7 +31,6 @@ drillMultipliers: {
   talc: 0.75
 }
 heatColor: "#AEA498ff"
-details: "Liquid boost: 2x"
 
 research: {
   parent: rockbore

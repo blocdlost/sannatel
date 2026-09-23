@@ -18,13 +18,12 @@ drillMultipliers: {
 }
 consumes: {
   power: 0.2
- liquids: {
-  liquids: [
-    chemicalia-liquid/0.167
-  ]
-  optional: true
-  booster: true
- }
+  liquid: {
+    liquid: chemicalia-liquid
+    amount: 0.16667
+    booster: true
+    optional: true
+  }
 }
 optionalBoostIntensity: 3.5
 blockedItems: [

@@ -44,7 +44,7 @@ drawer: {
     }
     {
       type: DrawGlowRegion
-      alpha: 0.25
+      alpha: 0.75
       color: "#656B81ff"
     }
   ]

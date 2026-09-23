@@ -2,9 +2,9 @@ name: chemicalia-liquid
 localizedName: Chemicalia
 description: "Highly corrosive and acidic liquid mix. Used in material synthesis and power generation."
 details: "Occurs in small pockets and puddles. Origin of source is unknown. Unlikely to be natural."
-color: "#57B371"
-gasColor: "#57B371"
-barColor: "#57B371"
+color: "#7FB270"
+gasColor: "#7FB270"
+barColor: "#7FB270"
 flammability: 0.15
 temperature: 0.52
 heatCapacity: 0.25

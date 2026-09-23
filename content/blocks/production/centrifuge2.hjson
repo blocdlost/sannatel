@@ -18,7 +18,7 @@ outputItems: [
   zinc/1
 ]
 consumes: {
-  power: 0.83333
+  power: 0.83334
   items: [
     rich-earth/5
   ]

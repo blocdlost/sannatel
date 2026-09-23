@@ -14,6 +14,7 @@ drillTime: 133
 range: 3
 drillMultipliers: {
   iron: 0.88889
+  plutonium: 0.83333
 }
 consumes: {
   power: 1.2
@@ -36,4 +37,3 @@ hasLiquids: true
 hasItems: true
 itemCapacity: 20
 group: drills
-details: "Liquid Boost: 3"
