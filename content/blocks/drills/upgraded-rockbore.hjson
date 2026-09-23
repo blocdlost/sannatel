@@ -10,20 +10,22 @@ tier: 5
 category: production
 databaseTag: production
 type: BeamDrill
-drillTime: 100
+drillTime: 133
 range: 3
 drillMultipliers: {
-  iron: 0.85
+  iron: 0.88889
 }
 consumes: {
   power: 1.2
- liquids: {
+  liquid: {
+    liquid: chemicalia-liquid
+    amount: 0.25
+    optional: true
+    booster: true
+  }
   liquids: [
-    sodiumphosphate/0.167
+    sodiumphosphate/0.16667
   ]
-  optional: true
-  booster: true
- }
 }
 optionalBoostIntensity: 3
 blockedItems: [

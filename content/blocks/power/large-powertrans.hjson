@@ -1,0 +1,15 @@
+name: Large Power Transmitter
+description: "Transmits power over distances via power lasers. More range and connections than its smaller counterpart."
+type: PowerNode
+maxNodes: 12
+size: 3
+laserRange: 32
+requirements: [
+  lithium/48, zinc/32, lithium-cell/3
+]
+health: 450
+category: power
+databaseTag: power
+buildTime: 90
+group: power
+

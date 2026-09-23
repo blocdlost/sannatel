@@ -6,7 +6,7 @@ maxNodes: 5
 size: 2
 laserRange: 18
 requirements: [
-  "sannatel-lithium/12"
+  lithium/12, zinc/4
 ]
 health: 110
 category: power

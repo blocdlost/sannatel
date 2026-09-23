@@ -18,14 +18,15 @@ tier: 10
 drawRim: true
 consumes: {
   power: 0.75
-  liquids: {
-    liquids: [
-      sodiumphosphate/0.16667
-      talc-oil/0.33333
-    ]
-    booster: true
+  liquid: {
+    liquid: talc-oil
+    amount: 0.2
     optional: true
+    booster: true
   }
+  liquids: [
+    sodiumphosphate/0.16667
+  ]
 }
 heatColor: "#A6FFA7ff"
 liquidBoostIntensity: 1.65831
