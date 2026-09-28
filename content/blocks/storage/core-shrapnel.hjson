@@ -10,7 +10,7 @@ itemCapacity: 3000
 health: 2400
 buildTime: 2700
 requirements: [
-  "zinc/1500", "lithium/900"
+  "1zinc/1500", "lithium/900"
 ]
 size: 3
 category: effect

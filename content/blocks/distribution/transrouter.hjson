@@ -13,7 +13,7 @@ teamPassable: true
 buildTime: 24
 isDuct: true
 requirements: [
-  "zinc/5"
+  "1zinc/5"
 ]
 crushFragile: true
 speed: 5
@@ -22,5 +22,5 @@ group: transportation
 
 research: transtube
 researchCost: [
-  "zinc/3"
+  "1zinc/3"
 ]

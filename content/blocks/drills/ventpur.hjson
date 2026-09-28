@@ -15,7 +15,7 @@ group: drills
 
 size: 3
 requirements: [
-  "zinc/275", "iron/200", "alkaloid/185", "phosphor/60"
+  "1zinc/275", "iron/200", "alkaloid/185", "phosphor/60"
 ]
 buildTime: 180
 health: 580

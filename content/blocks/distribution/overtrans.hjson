@@ -2,7 +2,7 @@ name: over-trans
 localizedName: "Transport Overflow Gate"
 type: OverflowDuct
 requirements: [
-  "zinc/2", "lithium/1"
+  "1zinc/2", "lithium/1"
 ]
 health: 45
 underBullets: true

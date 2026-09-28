@@ -3,7 +3,7 @@ localizedName: "Snipe"
 description: "Shoots salvos of charged bullets that let out periodical lightning arcs at air enemies."
 size: 3
 requirements: [
-  "alkaloid/75", "zinc/285", "talc/180"
+  "alkaloid/75", "1zinc/285", "talc/180"
 ]
 buildTime: 210
 category: turret
@@ -81,5 +81,5 @@ research: {
   ]
 }
 researchCost: [
-  "alkaloid/100", "zinc/500", "talc/350"
+  "alkaloid/100", "1zinc/500", "talc/350"
 ]

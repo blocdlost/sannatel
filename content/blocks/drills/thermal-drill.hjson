@@ -4,7 +4,7 @@ size: 4
 type: Drill
 health: 650
 requirements: [
-    zinc/230, lithium/120, iron/180, ferric-alloy/90, plutonium/64
+    1zinc/230, lithium/120, iron/180, ferric-alloy/90, plutonium/64
 ]
 category: production
 databaseTag: production
@@ -32,5 +32,5 @@ heatColor: "#A6FFA7ff"
 liquidBoostIntensity: 1.65831
 drillMultipliers: {
   talc: 0.8 //0.24 per tile
-  zinc: 1.08333 //0.1 per tile
+  1zinc: 1.08333 //0.1 per tile
 }

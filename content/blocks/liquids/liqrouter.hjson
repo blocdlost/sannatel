@@ -6,7 +6,7 @@ category: liquid
 databaseTag: liquid
 group: liquids
 requirements: [
-  "sannatel-iron/4", "sannatel-zinc/6"
+  "sannatel-iron/4", "1zinc/6"
 ]
 liquidCapacity: 50
 health: 100

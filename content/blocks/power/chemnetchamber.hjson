@@ -8,7 +8,7 @@ category: power
 databaseTag: power
 group: power 
 requirements: [
-  "lithium/250", "zinc/480", "alkaloid/75", "talc/185"
+  "lithium/250", "1zinc/480", "alkaloid/75", "talc/185"
 ]
 buildTime: 300
 
@@ -73,5 +73,5 @@ research: {
   ]
 }
 researchCost: [
-  "lithium/500", "zinc/1000", "alkaloid/200", "talc/300"
+  "lithium/500", "1zinc/1000", "alkaloid/200", "talc/300"
 ]

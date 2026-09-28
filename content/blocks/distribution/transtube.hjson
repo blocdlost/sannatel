@@ -15,7 +15,7 @@ teamPassable: true
 buildTime: 2
 isDuct: true
 requirements: [
-  "zinc/1"
+  "1zinc/1"
 ]
 crushFragile: true
 speed: 5
@@ -25,5 +25,5 @@ bridgeReplacement: transbridge
 
 research: core-shrapnel
 researchCost: [
-  "zinc/1"
+  "1zinc/1"
 ]

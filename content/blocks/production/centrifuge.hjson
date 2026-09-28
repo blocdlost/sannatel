@@ -2,7 +2,7 @@ name: soil-centrifuge1
 localizedName: "Zinc Centrifuge"
 description: "Extracts Zinc from Poor Earth samples."
 requirements: [
-    "sannatel-zinc/50",
+    "1zinc/50",
   ]
 category: crafting
 type: genericCrafter
@@ -14,7 +14,7 @@ size: 2
 health: 150
 
 outputItems: [
-  sannatel-zinc/2
+  1zinc/2
 ]
 consumes: {
   items: [

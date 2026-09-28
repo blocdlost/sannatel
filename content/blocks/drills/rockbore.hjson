@@ -4,7 +4,7 @@ description: "Extracts resources from walls."
 size: 2
 health: 175
 requirements: [
-  "sannatel-zinc/25", "sannatel-lithium/12"
+  "1zinc/25", "sannatel-lithium/12"
 ]
 buildTime: 90
 tier: 3
@@ -42,5 +42,5 @@ research: {
   ]
 }
 researchCost: [
-  "sannatel-zinc/25", "sannatel-lithium/5"
+  "1zinc/25", "sannatel-lithium/5"
 ]

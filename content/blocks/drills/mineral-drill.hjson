@@ -5,7 +5,7 @@ size: 3
 health: 380
 type: Drill
 requirements: [
-  "zinc/50", "lithium/25", "iron/35"
+  "1zinc/50", "lithium/25", "iron/35"
 ]
 category: production
 databaseTag: production
@@ -42,5 +42,5 @@ research: {
   ]
 }
 researchCost: [
-  "zinc/100", "lithium/50", "iron/20"
+  "1zinc/100", "lithium/50", "iron/20"
 ]

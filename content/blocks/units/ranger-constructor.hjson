@@ -2,7 +2,7 @@ name: ranger-constructor
 localizedName: "Ranger Constructor"
 description: "Constructs tier 1 ranger type units."
 requirements: [
-  "alkaloid/25", "zinc/150", "lithium/70"
+  "alkaloid/25", "1zinc/150", "lithium/70"
 ]
 health: 480
 category: units
@@ -36,5 +36,5 @@ research: {
   ]
 }
 researchCost: [
-  "zinc/200", "lithium/100"
+  "1zinc/200", "lithium/100"
 ]

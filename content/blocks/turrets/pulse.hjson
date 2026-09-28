@@ -3,7 +3,7 @@ localizedName: Pulse
 description: "Blasts away enemies with lots of small shrapnel."
 size: 2
 requirements: [
-  "zinc/65", "sodium/40"
+  "1zinc/65", "sodium/40"
 ]
 buildTime: 195
 category: turret
@@ -44,7 +44,7 @@ consumes: {
 squareSprite: false
 
 ammoTypes: {
-  zinc: { #245 DPS
+  1zinc: { #245 DPS
     type: basicBulletType
     damage: 1
     splashDamage: 15
@@ -84,5 +84,5 @@ research: {
   ]
 }
 researchCost: [
-  "zinc/50", "sodium/25"
+  "1zinc/50", "sodium/25"
 ]

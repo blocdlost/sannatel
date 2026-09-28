@@ -4,7 +4,7 @@ description: "Stores a medium amount of one liquid."
 type: LiquidRouter
 size: 2
 requirements: [
-  "sannatel-iron/45", "sannatel-zinc/60"
+  "sannatel-iron/45", "1zinc/60"
 ]
 liquidCapacity: 450
 health: 385
@@ -24,5 +24,5 @@ research: {
   ]
 }
 researchCost: [
-  "sannatel-iron/100", "sannatel-zinc/120"
+  "sannatel-iron/100", "1zinc/120"
 ]

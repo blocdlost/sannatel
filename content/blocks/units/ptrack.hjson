@@ -11,8 +11,13 @@ buildTime: 20
 health: 250
 
 requirements: [
-  "alkaloid/10", "zinc/50"
+  "alkaloid/10", "1zinc/50"
 ]
 
 category: units 
 databaseTag: units 
+
+research: ranger constructor
+researchCost: [
+  alkaloid/25, 1zinc/75
+]

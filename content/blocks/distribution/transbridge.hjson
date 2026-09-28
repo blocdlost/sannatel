@@ -5,7 +5,7 @@ type: ItemBridge
 health: 65
 buildTime: 50
 requirements: [
-  "zinc/8"
+  "1zinc/8"
 ]
 range: 5
 databaseTag: distribution
@@ -17,5 +17,5 @@ group: transportation
 
 research: transjunc
 researchCost: [
-  "zinc/5"
+  "1zinc/5"
 ]

@@ -3,7 +3,7 @@ localizedName: "Chemical Reactive Chamber"
 description: "Uses Sodium to react with rich soil samples."
 size: 2
 requirements: [
-  "sannatel-zinc/52", "sannatel-sodium/36"
+  "1zinc/52", "sannatel-sodium/36"
 ]
 
 type: ConsumeGenerator
@@ -28,5 +28,5 @@ squareSprite: false
 
 research: soil-drill
 researchCost: [
-  "sannatel-zinc/25", "sannatel-sodium/25"
+  "1zinc/25", "sannatel-sodium/25"
 ]

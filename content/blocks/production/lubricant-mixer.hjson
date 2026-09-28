@@ -2,7 +2,7 @@ name: lubricant-mixer
 localizedName: "Lubricant Mixer"
 description: "Mixes Sludge with Talc to create Talc Oil."
 requirements: [
-  "sannatel-zinc/180", "sannatel-lithium/60", "sannatel-sodium/120", "sannatel-iron/75"
+  "1zinc/180", "sannatel-lithium/60", "sannatel-sodium/120", "sannatel-iron/75"
 ]
 category: crafting
 databaseTag: crafting
@@ -85,5 +85,5 @@ research: {
   ]
 }
 researchCost: [
-  "sannatel-zinc/350", "sannatel-lithium/150", "sannatel-sodium/300", "sannatel-iron/150"
+  "1zinc/350", "sannatel-lithium/150", "sannatel-sodium/300", "sannatel-iron/150"
 ]

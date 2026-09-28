@@ -2,7 +2,7 @@ name: soil-centrifuge2
 localizedName: "Lithium Centrifuge"
 description: "Extracts Lithium and a small amount of Zinc from Rich Earth samples."
 requirements: [
-    "zinc/60",
+    "1zinc/60",
   ]
 category: crafting
 type: genericCrafter
@@ -15,7 +15,7 @@ health: 150
 
 outputItems: [
   lithium/2
-  zinc/1
+  1zinc/1
 ]
 consumes: {
   power: 0.83334
@@ -36,5 +36,5 @@ research: {
   parent: centrifuge
 }
 researchCost: [
-  "zinc/25"
+  "1zinc/25"
 ]

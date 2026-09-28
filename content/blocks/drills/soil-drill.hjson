@@ -6,7 +6,7 @@ description: "Extracts soils and soft resources from the ground."
 size: 2
 health: 150
 requirements: [
-    "sannatel-zinc/12",
+    "1zinc/12",
   ]
 blockedItems: [
   "sannatel-talc"
@@ -23,5 +23,5 @@ group: drills
 
 research: core-shrapnel
 researchCost: [
-  "sannatel-zinc/12"
+  "1zinc/12"
 ]

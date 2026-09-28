@@ -6,7 +6,7 @@ health: 400
 armor: 2
 group: walls
 requirements: [
-    "sannatel-zinc/6",
+    "1zinc/6",
   ]
 placeSound: blockPlace1
 breakSound: blockBreak1
@@ -18,5 +18,5 @@ baseShake: 1
 
 research: pulse
 researchCost: [
-  "sannatel-zinc/24"
+  "1zinc/24"
 ]

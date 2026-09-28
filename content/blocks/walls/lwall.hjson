@@ -6,7 +6,7 @@ health: 1600
 armor: 4
 group: walls
 requirements: [
-    "sannatel-zinc/24",
+    "1zinc/24",
   ]
 placeSound: blockPlace2
 breakSound: blockBreak2
@@ -20,5 +20,5 @@ buildTime: 32
 
 research: wall
 researchCost: [
-  "sannatel-zinc/48"
+  "1zinc/48"
 ]

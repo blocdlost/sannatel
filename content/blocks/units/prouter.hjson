@@ -11,8 +11,13 @@ buildTime: 25
 health: 275
 
 requirements: [
-  "alkaloid/15", "zinc/80"
+  "alkaloid/15", "1zinc/80"
 ]
 
 category: units 
 databaseTag: units 
+
+research: ptrack
+researchCost: [
+  alkaloid/30, 1zinc/100
+]
