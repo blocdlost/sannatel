@@ -13,4 +13,4 @@ coolant: false
 boilPoint: 10
 databaseTag: liquid
 
-research: lithium
+research: 3lithium

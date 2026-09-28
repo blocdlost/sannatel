@@ -15,4 +15,4 @@ coolant: false
 boilPoint: 10
 databaseTag: liquid
 
-research: iron
+research: 6iron

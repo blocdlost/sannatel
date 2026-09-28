@@ -17,5 +17,5 @@ databaseTag: liquid
 gas: true
 
 research: {
-  parent: sodium
+  parent: 2sodium
 }

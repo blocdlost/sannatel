@@ -18,5 +18,5 @@ vaporEffect: corrosionVapor
 databaseTag: liquid
 
 research: {
-  parent: iron
+  parent: 6iron
 }
