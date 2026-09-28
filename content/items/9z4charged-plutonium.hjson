@@ -1,6 +1,6 @@
 name: Charged Plutonium
 description: "The final, most advanced material. Stores extremely high amounts of charge and very radioactive. Only used in the most advanced technologies."
-research: 12plutonium
+research: 9z3plutonium
 hardness: 10
 cost: 15
 buildable: true

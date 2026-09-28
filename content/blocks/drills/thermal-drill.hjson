@@ -4,7 +4,7 @@ size: 4
 type: Drill
 health: 650
 requirements: [
-    1zinc/230, 3lithium/120, 6iron/180, 11ferric-alloy/90, 12plutonium/64
+    1zinc/230, 3lithium/120, 6iron/180, 9z2ferric-alloy/90, 9z3plutonium/64
 ]
 category: production
 databaseTag: production

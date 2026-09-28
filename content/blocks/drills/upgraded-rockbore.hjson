@@ -3,7 +3,7 @@ description: "Extracts resources from walls. More efficient than its standard co
 size: 3
 health: 480
 requirements: [
-  "1zinc/100", "3lithium/80", 6iron/75, 11ferric-alloy/24
+  "1zinc/100", "3lithium/80", 6iron/75, 9z2ferric-alloy/24
 ]
 buildTime: 180
 tier: 5
@@ -14,7 +14,7 @@ drillTime: 133
 range: 3
 drillMultipliers: {
   6iron: 0.88889
-  12plutonium: 0.83333
+  9z3plutonium: 0.83333
 }
 consumes: {
   power: 1.2
