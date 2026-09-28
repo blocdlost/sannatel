@@ -14,7 +14,7 @@ type: BeamDrill
 drillTime: 193
 range: 2
 drillMultipliers: {
-  iron: 0.75
+  6iron: 0.75
 }
 consumes: {
   power: 0.2

@@ -3,7 +3,7 @@ name: zinc,
 hardness: 10
 cost: 1
 color: "#AAC8C8",
-research: poor-earth
+research: 4poor-earth
 buildable: true,
 localizedName: Zinc,
 description: "Malleable, inert metal. Used in basic equipment and alloys.",

@@ -2,7 +2,7 @@ name: explorer-constructor
 localizedName: "Explorer Constructor"
 description: "Constructs tier 1 explorer type units."
 requirements: [
-  "alkaloid/45", "1zinc/135", "2sodium/110"
+  "8alkaloid/45", "1zinc/135", "2sodium/110"
 ]
 health: 495
 category: units
@@ -16,7 +16,7 @@ plans: [
   {
     unit: reverb
     requirements: [
-      "alkaloid/24", "3lithium/28"
+      "8alkaloid/24", "3lithium/28"
     ]
     time: 1620
   }
@@ -36,5 +36,5 @@ research: {
   ]
 }
 researchCost: [
-  "alkaloid/100", "1zinc/250", "2sodium/150"
+  "8alkaloid/100", "1zinc/250", "2sodium/150"
 ]

@@ -3,7 +3,7 @@ localizedName: Stain
 description: "Fires a stream of superheated fuel towards enemies."
 size: 3
 requirements: [
-  "1zinc/400", "6iron/325", graphite/180, phosphor/40
+  "1zinc/400", "6iron/325", graphite/180, 9phosphor/40
 ]
 buildTime: 360
 category: turret

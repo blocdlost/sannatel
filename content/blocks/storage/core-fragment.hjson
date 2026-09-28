@@ -11,7 +11,7 @@ health: 7250
 armor: 5
 buildTime: 4500
 requirements: [
-  "3lithium/3000", "6iron/2200", "alkaloid/1800"
+  "3lithium/3000", "6iron/2200", "8alkaloid/1800"
 ]
 size: 4
 category: effect
@@ -30,5 +30,5 @@ research: {
   ]
 }
 researchCost: [
-  "3lithium/15000", "6iron/12500", "alkaloid/9000"
+  "3lithium/15000", "6iron/12500", "8alkaloid/9000"
 ]

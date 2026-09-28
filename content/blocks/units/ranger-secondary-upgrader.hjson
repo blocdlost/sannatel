@@ -2,7 +2,7 @@ name: ranger-secondary-upgrader
 localizedName: "Ranger Secondary Upgrader"
 description: "Upgrades tier 2 ranger units to the third tier."
 requirements: [
-  "alkaloid/245", "3lithium/450", "phosphor/90"
+  "8alkaloid/245", "3lithium/450", "9phosphor/90"
 ]
 health: 625
 category: units
@@ -23,7 +23,7 @@ constructTime: 3840
 consumes: {
   power: 3.2
   items: [
-    alkaloid/124, graphite/80, 6iron/132
+    8alkaloid/124, graphite/80, 6iron/132
   ]
 }
 

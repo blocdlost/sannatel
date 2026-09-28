@@ -14,12 +14,12 @@ size: 2
 health: 250
 
 outputItems: [
-  sannatel-alkaloid/2
+  8alkaloid/2
 ]
 consumes: {
   power: 0.25
   items: [
-    sannatel-talc/1
+    7talc/1
     2sodium/2
   ]
 }

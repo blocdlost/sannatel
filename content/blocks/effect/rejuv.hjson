@@ -5,7 +5,7 @@ category: effect
 databaseTag: effect
 group: projectors
 requirements: [
-  "sannatel-talc/120", "3lithium/250", "1zinc/180"
+  "7talc/120", "3lithium/250", "1zinc/180"
 ]
 size: 3
 type: RegenProjector
@@ -62,5 +62,5 @@ research: {
 }
 
 researchCost: [
-  "sannatel-talc/200", "3lithium/500", "1zinc/400"
+  "7talc/200", "3lithium/500", "1zinc/400"
 ]

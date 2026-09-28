@@ -28,7 +28,7 @@ consumes: {
   }
 }
 drillMultipliers: {
-  talc: 0.75
+  7talc: 0.75
 }
 heatColor: "#AEA498ff"
 

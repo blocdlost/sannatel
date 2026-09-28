@@ -1,5 +1,5 @@
 name: talc-ore
 localizedName: Talcum
 type: OreBlock
-itemDrop: talc
+itemDrop: 7talc
 variants: 3

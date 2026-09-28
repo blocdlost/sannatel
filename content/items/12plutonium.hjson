@@ -1,6 +1,6 @@
 name: Plutonium
 description: "Radioactive and reactive material. Used in advanced power generation and lategame equipment."
-research: lithium
+research: 3lithium
 hardness: 5
 cost: 8
 buildable: true

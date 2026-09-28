@@ -2,7 +2,7 @@ name: pilot-primary-upgrader
 localizedName: "Pilot Primary Upgrader"
 description: "Upgrades tier 1 pilot units to the second tier."
 requirements: [
-  "alkaloid/180", talc/182, 1zinc/385
+  "8alkaloid/180", 7talc/182, 1zinc/385
 ]
 health: 550
 category: units
@@ -23,7 +23,7 @@ constructTime: 1500
 consumes: {
   power: 2.2
   items: [
-    alkaloid/28, 6iron/64
+    8alkaloid/28, 6iron/64
   ]
 }
 

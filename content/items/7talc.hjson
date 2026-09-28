@@ -4,7 +4,7 @@ description: "Soft, greasy stone. Used for lubricant and material synthesis."
 details: "Appears in Talcum formations. Extremely flammable and reactive to heat."
 hardness: 1
 cost: 2
-research: iron
+research: 6iron
 buildable: true
 color: "#A0BCA5"
 flammability: 1.5

@@ -8,11 +8,11 @@ health: 1720
 size: 2
 group: walls
 requirements: [
-  "6iron/20", "sannatel-alkaloid/12"
+  "6iron/20", "8alkaloid/12"
 ]
 buildTime: 60
 
 research: irondoor
 researchCost: [
-  "6iron/48", "sannatel-alkaloid/24"
+  "6iron/48", "8alkaloid/24"
 ]

@@ -4,7 +4,7 @@ description: "Soft, highly reactive metal. Used in chemical synthesis and reacti
 details: "Appears in large soil and cliff formations. Extremely reactive to and should be kept away from water and heat."
 hardness: 1
 cost: 1
-research: zinc
+research: 1zinc
 buildable: true
 color: "#656B81"
 lowPriority: false

@@ -2,7 +2,7 @@ name: ranger-constructor
 localizedName: "Ranger Constructor"
 description: "Constructs tier 1 ranger type units."
 requirements: [
-  "alkaloid/25", "1zinc/150", "3lithium/70"
+  "8alkaloid/25", "1zinc/150", "3lithium/70"
 ]
 health: 480
 category: units
@@ -16,7 +16,7 @@ plans: [
   {
     unit: obstacle
     requirements: [
-      "alkaloid/30", "1zinc/36"
+      "8alkaloid/30", "1zinc/36"
     ]
     time: 1500
   }

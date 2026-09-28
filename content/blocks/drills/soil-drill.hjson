@@ -9,7 +9,7 @@ requirements: [
     "1zinc/12",
   ]
 blockedItems: [
-  "sannatel-talc"
+  "7talc"
 ]
 type: Drill
 rotateSpeed: 1.5

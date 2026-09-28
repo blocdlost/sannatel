@@ -22,7 +22,7 @@ squareSprite: false
 research: {
   parent: soil-drill
   objectives: [
-    iron
+    6iron
   ]
 }
 researchCost: [

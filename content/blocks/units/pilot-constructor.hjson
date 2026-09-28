@@ -2,7 +2,7 @@ name: pilot-constructor
 localizedName: "Pilot Constructor"
 description: "Constructs tier 1 pilot type units."
 requirements: [
-  "alkaloid/60", "6iron/180", "1zinc/235"
+  "8alkaloid/60", "6iron/180", "1zinc/235"
 ]
 health: 510
 category: units
@@ -16,7 +16,7 @@ plans: [
   {
     unit: tamper
     requirements: [
-      alkaloid/16, 2sodium/28
+      8alkaloid/16, 2sodium/28
     ]
     time: 1080
   }

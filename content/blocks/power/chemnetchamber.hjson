@@ -8,13 +8,13 @@ category: power
 databaseTag: power
 group: power 
 requirements: [
-  "3lithium/250", "1zinc/480", "alkaloid/75", "talc/185"
+  "3lithium/250", "1zinc/480", "8alkaloid/75", "7talc/185"
 ]
 buildTime: 300
 
 consumes: {
  items: [
-  alkaloid/10
+  8alkaloid/10
  ]
  liquids: [
   chemicalia-liquid/0.83334
@@ -73,5 +73,5 @@ research: {
   ]
 }
 researchCost: [
-  "3lithium/500", "1zinc/1000", "alkaloid/200", "talc/300"
+  "3lithium/500", "1zinc/1000", "8alkaloid/200", "7talc/300"
 ]
