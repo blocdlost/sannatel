@@ -2,7 +2,7 @@ name: large-centrifuge
 localizedName: "Large Centrifuge"
 description: "Centrifuges both types of earth at the same time with higher efficiency than its standard counterparts. Requires power and lubrication."
 requirements: [
-  "1zinc/250", "sannatel-iron/75", "sannatel-lithium/175", "sannatel-talc/120"
+  "1zinc/250", "sannatel-iron/75", "3lithium/175", "sannatel-talc/120"
 ]
 category: crafting
 databaseTag: crafting
@@ -31,7 +31,7 @@ consumes: {
 }
 
 outputItems: [
-  sannatel-lithium/3
+  3lithium/3
   1zinc/4
 ]
 craftTime: 20
@@ -82,5 +82,5 @@ research: {
   ]
 }
 researchCost: [
-  "1zinc/400", "sannatel-iron/250", "sannatel-lithium/400", "sannatel-talc/150"
+  "1zinc/400", "sannatel-iron/250", "3lithium/400", "sannatel-talc/150"
 ]

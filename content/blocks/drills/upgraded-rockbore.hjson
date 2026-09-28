@@ -3,7 +3,7 @@ description: "Extracts resources from walls. More efficient than its standard co
 size: 3
 health: 480
 requirements: [
-  "1zinc/100", "sannatel-lithium/80", iron/75, ferric-alloy/24
+  "1zinc/100", "3lithium/80", iron/75, ferric-alloy/24
 ]
 buildTime: 180
 tier: 5

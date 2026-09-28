@@ -16,7 +16,7 @@ plans: [
   {
     unit: tamper
     requirements: [
-      "alkaloid/16", "sodium/28"
+      alkaloid/16, 2sodium/28
     ]
     time: 1080
   }

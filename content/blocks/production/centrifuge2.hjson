@@ -14,7 +14,7 @@ size: 2
 health: 150
 
 outputItems: [
-  lithium/2
+  3lithium/2
   1zinc/1
 ]
 consumes: {

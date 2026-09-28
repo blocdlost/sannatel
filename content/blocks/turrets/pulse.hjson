@@ -3,7 +3,7 @@ localizedName: Pulse
 description: "Blasts away enemies with lots of small shrapnel."
 size: 2
 requirements: [
-  "1zinc/65", "sodium/40"
+  "1zinc/65", "2sodium/40"
 ]
 buildTime: 195
 category: turret
@@ -84,5 +84,5 @@ research: {
   ]
 }
 researchCost: [
-  "1zinc/50", "sodium/25"
+  "1zinc/50", "2sodium/25"
 ]

@@ -6,7 +6,7 @@ maxNodes: 5
 size: 2
 laserRange: 18
 requirements: [
-  lithium/12, 1zinc/4
+  3lithium/12, 1zinc/4
 ]
 health: 110
 category: power
@@ -16,5 +16,5 @@ group: power
 
 research: chem-react-chamber
 researchCost: [
-  "sannatel-lithium/30"
+  "3lithium/30"
 ]

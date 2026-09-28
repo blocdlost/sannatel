@@ -15,7 +15,7 @@ group: drills
 
 size: 3
 requirements: [
-  "1zinc/350", "sodium/185", graphite/50
+  "1zinc/350", "2sodium/185", graphite/50
 ]
 buildTime: 150
 health: 600

@@ -2,5 +2,5 @@ name: sodium-floor
 localizedName: "Sodium"
 description: "Sodium-rich ground."
 type: Floor
-itemDrop: sodium
+itemDrop: 2sodium
 variants: 2

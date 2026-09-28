@@ -2,7 +2,7 @@ name: explorer-primary-upgrader
 localizedName: "Explorer Primary Upgrader"
 description: "Upgrades tier 1 explorer units to the second tier."
 requirements: [
-  "alkaloid/160", "iron/170", "sodium/235"
+  "alkaloid/160", "iron/170", "2sodium/235"
 ]
 health: 520
 category: units

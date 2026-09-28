@@ -5,7 +5,7 @@ maxNodes: 12
 size: 3
 laserRange: 32
 requirements: [
-  lithium/48, 1zinc/32, lithium-cell/3
+  3lithium/48, 1zinc/32, lithium-cell/3
 ]
 health: 450
 category: power

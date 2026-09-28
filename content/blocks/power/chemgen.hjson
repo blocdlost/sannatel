@@ -7,13 +7,13 @@ category: power
 databaseTag: power
 group: power 
 requirements: [
-  "sannatel-lithium/150", "sannatel-iron/52", "sannatel-sodium/200"
+  "3lithium/150", "sannatel-iron/52", "2sodium/200"
 ]
 buildTime: 240
 
 consumes: {
  items: [
-  sannatel-sodium/1
+  2sodium/1
  ]
  liquids: [
   chemicalia-liquid/0.5
@@ -61,5 +61,5 @@ research: {
   ]
 }
 researchCost: [
-  "sannatel-lithium/300", "sannatel-iron/100", "sannatel-sodium/250"
+  "3lithium/300", "sannatel-iron/100", "2sodium/250"
 ]

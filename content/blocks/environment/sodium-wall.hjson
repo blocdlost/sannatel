@@ -2,4 +2,4 @@ name: sodium-wall
 localizedName: "Sodium Wall"
 type: StaticWall
 variants: 2
-itemDrop: sodium
+itemDrop: 2sodium

@@ -3,7 +3,7 @@ localizedName: "Sodium-Lithium Battery"
 description: "Stores charge in Sodium-Lithium cells."
 type: Battery
 requirements: [
-  "sannatel-lithium/75", "sannatel-sodium/42"
+  "3lithium/75", "2sodium/42"
 ]
 consumes: {
   powerBuffered: 7500
@@ -25,5 +25,5 @@ research: {
   ]
 }
 researchCost: [
-  "sannatel-lithium/150", "sannatel-sodium/100"
+  "3lithium/150", "2sodium/100"
 ]
