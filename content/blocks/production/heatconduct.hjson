@@ -4,7 +4,7 @@ description: "Conducts and transports heat."
 type: HeatConductor
 size: 3
 requirements: [
-  "sannatel-alkaloid/25", "sannatel-iron/32"
+  "sannatel-alkaloid/25", "6iron/32"
 ]
 buildTime: 30
 health: 250

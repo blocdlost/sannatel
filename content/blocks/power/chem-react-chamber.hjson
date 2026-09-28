@@ -9,7 +9,7 @@ requirements: [
 type: ConsumeGenerator
 consumes: {
   items: [
-    2sodium/2, sannatel-rich-earth/1
+    2sodium/2, 5rich-earth/1
   ]
 }
 

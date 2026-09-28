@@ -58,7 +58,7 @@ ammoTypes: {
     lifeScaleRandMin: 0.3
     lifeScaleRandMax: 1.1
   }
-  iron: { #295 DPS
+  6iron: { #295 DPS
     type: basicBulletType
     reloadMultiplier: 0.7
     damage: 3.5
@@ -80,7 +80,7 @@ ammoTypes: {
 research: {
   parent: core-shrapnel
   objectives: [
-    lithium
+    3lithium
   ]
 }
 researchCost: [

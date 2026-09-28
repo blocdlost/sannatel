@@ -6,11 +6,11 @@ category: liquid
 databaseTag: liquid
 group: liquids
 requirements: [
- "sannatel-iron/4", "1zinc/6"
+ "6iron/4", "1zinc/6"
 ]
 health: 100
 
 research: liqchannel
 researchCost: [
-  "sannatel-iron/5"
+  "6iron/5"
 ]

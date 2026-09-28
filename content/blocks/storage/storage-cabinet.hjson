@@ -3,7 +3,7 @@ localizedName: "Storage Cabinet"
 description: "Stores large amounts of items and resources."
 size: 3
 requirements: [
-  "1zinc/300", "iron/180", graphite/100
+  "1zinc/300", "6iron/180", graphite/100
 ]
 health: 675
 itemCapacity: 950
@@ -18,5 +18,5 @@ squareSprite: false
 
 research: storage-box
 researchCost: [
-  "1zinc/500", "iron/500", graphite/250
+  "1zinc/500", "6iron/500", graphite/250
 ]

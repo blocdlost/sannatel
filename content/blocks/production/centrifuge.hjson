@@ -18,7 +18,7 @@ outputItems: [
 ]
 consumes: {
   items: [
-    sannatel-poor-earth/4
+    4poor-earth/4
   ]
 }
 craftTime: 35

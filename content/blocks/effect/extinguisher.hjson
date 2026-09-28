@@ -5,7 +5,7 @@ category: effect
 databaseTag: effect
 group: projectors
 requirements: [
-  "iron/150", "talc/125", "alkaloid/25"
+  "6iron/150", "talc/125", "alkaloid/25"
 ]
 size: 3
 buildTime: 90
@@ -117,5 +117,5 @@ research: {
   ]
 }
 researchCost: [
-  "iron/400", "talc/500", "alkaloid/150"
+  "6iron/400", "talc/500", "alkaloid/150"
 ]

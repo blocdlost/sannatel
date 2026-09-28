@@ -23,7 +23,7 @@ constructTime: 3840
 consumes: {
   power: 3.2
   items: [
-    alkaloid/124, graphite/80, iron/132
+    alkaloid/124, graphite/80, 6iron/132
   ]
 }
 

@@ -3,7 +3,7 @@ localizedName: "Fling"
 description: "Launches mid-range mortar artillery shells."
 size: 3
 requirements: [
-  "3lithium/200", "iron/115", "talc/100"
+  "3lithium/200", "6iron/115", "talc/100"
 ]
 buildTime: 240
 category: turret
@@ -47,7 +47,7 @@ consumes: {
 squareSprite: false
 
 ammoTypes: {
-  sodium: { #130 DPS
+  2sodium: { #130 DPS
     pierce: true
     width: 10
     backColor: "#4D4F64ff"
@@ -157,5 +157,5 @@ research: {
   ]
 }
 researchCost: [
-  "3lithium/400", "iron/200", "talc/150"
+  "3lithium/400", "6iron/200", "talc/150"
 ]

@@ -15,7 +15,7 @@ group: drills
 
 size: 3
 requirements: [
-  "1zinc/275", "iron/200", "alkaloid/185", "phosphor/60"
+  "1zinc/275", "6iron/200", "alkaloid/185", "phosphor/60"
 ]
 buildTime: 180
 health: 580
@@ -31,7 +31,7 @@ outputLiquids: [
 consumes: {
   power: 2.5
   items: [
-    poor-earth/1
+    4poor-earth/1
   ]
 }
 craftEffect: ventSteam

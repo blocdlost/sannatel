@@ -6,7 +6,7 @@ category: liquid
 databaseTag: liquid
 group: liquids
 requirements: [
-  "sannatel-iron/4", "1zinc/6"
+  "6iron/4", "1zinc/6"
 ]
 liquidCapacity: 50
 health: 100
@@ -14,5 +14,5 @@ liquidPadding: 1
 underBullets: true
 research: liqchannel
 researchCost: [
-  "sannatel-iron/8"
+  "6iron/8"
 ]

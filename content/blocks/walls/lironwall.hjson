@@ -9,11 +9,11 @@ health: 2000
 armor: 2
 group: walls
 requirements: [
-  "sannatel-iron/24"
+  "6iron/24"
 ]
 buildTime: 40
 
 research: ironwall
 researchCost: [
-  "sannatel-iron/48"
+  "6iron/48"
 ]

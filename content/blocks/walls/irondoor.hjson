@@ -7,11 +7,11 @@ databaseTag: defense
 health: 430
 group: walls
 requirements: [
-  "sannatel-iron/5", "sannatel-alkaloid/3"
+  "6iron/5", "sannatel-alkaloid/3"
 ]
 buildTime: 15
 
 research: wall
 researchCost: [
-  "sannatel-iron/48", "sannatel-alkaloid/24"
+  "6iron/48", "sannatel-alkaloid/24"
 ]

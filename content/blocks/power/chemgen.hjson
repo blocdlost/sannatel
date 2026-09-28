@@ -7,7 +7,7 @@ category: power
 databaseTag: power
 group: power 
 requirements: [
-  "3lithium/150", "sannatel-iron/52", "2sodium/200"
+  "3lithium/150", "6iron/52", "2sodium/200"
 ]
 buildTime: 240
 
@@ -61,5 +61,5 @@ research: {
   ]
 }
 researchCost: [
-  "3lithium/300", "sannatel-iron/100", "2sodium/250"
+  "3lithium/300", "6iron/100", "2sodium/250"
 ]

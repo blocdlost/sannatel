@@ -2,7 +2,7 @@ name: graphite-refiner
 localizedName: "Graphite Refinery"
 description: "Refines Sludge into Graphite. Requires heat."
 requirements: [
-  "sannatel-talc/165", "sannatel-iron/190", "3lithium/135", "sannatel-alkaloid/175"
+  "sannatel-talc/165", "6iron/190", "3lithium/135", "sannatel-alkaloid/175"
 ]
 type: HeatCrafter
 category: crafting
@@ -97,5 +97,5 @@ research: {
   ]
 }
 researchCost: [
-  "sannatel-talc/300", "sannatel-iron/500", "3lithium/250", "sannatel-alkaloid/300"
+  "sannatel-talc/300", "6iron/500", "3lithium/250", "sannatel-alkaloid/300"
 ]

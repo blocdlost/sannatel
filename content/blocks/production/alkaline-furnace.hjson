@@ -2,7 +2,7 @@ name: alkaline-furnace
 localizedName: "Alkaline Furnace"
 description: "Smelts Talc and Sodium into Alkaloid."
 requirements: [
-  "sannatel-iron/25", "3lithium/30"
+  "6iron/25", "3lithium/30"
 ]
 category: crafting
 type: genericCrafter
@@ -50,5 +50,5 @@ research: {
   ]
 }
 researchCost: [
-  "sannatel-iron/100", "3lithium/75"
+  "6iron/100", "3lithium/75"
 ]

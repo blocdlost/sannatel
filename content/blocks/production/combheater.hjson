@@ -4,7 +4,7 @@ description: "Burns Talc to generate heat."
 type: HeatProducer
 size: 3
 requirements: [
-  "sannatel-alkaloid/85", "2sodium/60", "sannatel-iron/80"
+  "sannatel-alkaloid/85", "2sodium/60", "6iron/80"
 ]
 category: crafting
 databaseTag: crafting
@@ -56,5 +56,5 @@ research: {
   ]
 }
 researchCost: [
-  "sannatel-alkaloid/100", "2sodium/240", "sannatel-iron/320"
+  "sannatel-alkaloid/100", "2sodium/240", "6iron/320"
 ]

@@ -3,7 +3,7 @@ localizedName: "Liquid Channel Bridge"
 description: "Transports liquids above terrain and buildings."
 type: LiquidBridge
 requirements: [
-  "sannatel-iron/6", "1zinc/8"
+  "6iron/6", "1zinc/8"
 ]
 range: 5
 health: 110
@@ -17,5 +17,5 @@ hasPower: false
 
 research: liqchannel
 researchCost: [
-  "sannatel-iron/10"
+  "6iron/10"
 ]

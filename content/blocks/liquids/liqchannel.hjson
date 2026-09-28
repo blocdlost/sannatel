@@ -2,7 +2,7 @@ name: liquid-channel
 localizedName: "Liquid Channel"
 description: "Transports fluids."
 requirements: [
- "sannatel-iron/1"
+ "6iron/1"
 ]
 type: Conduit
 liquidCapacity: 10
@@ -16,5 +16,5 @@ junctionReplacement: liqjunc
 
 research: ironpump
 researchCost: [
-  "sannatel-iron/3"
+  "6iron/3"
 ]

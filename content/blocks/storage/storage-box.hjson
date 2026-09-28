@@ -3,7 +3,7 @@ localizedName: "Storage Box"
 description: "Stores medium amounts of items and resources."
 size: 2
 requirements: [
-  "1zinc/150", "iron/75"
+  "1zinc/150", "6iron/75"
 ]
 health: 400
 itemCapacity: 250
@@ -26,5 +26,5 @@ research: {
   ]
 }
 researchCost: [
-  "1zinc/100", "iron/100"
+  "1zinc/100", "6iron/100"
 ]

@@ -20,7 +20,7 @@ outputItems: [
 consumes: {
   power: 0.83334
   items: [
-    rich-earth/5
+    5rich-earth/5
   ]
 }
 craftTime: 35

@@ -2,7 +2,7 @@ name: ranger-primary-upgrader
 localizedName: "Ranger Primary Upgrader"
 description: "Upgrades tier 1 ranger units to the second tier."
 requirements: [
-  "alkaloid/120", "iron/190", "3lithium/175"
+  "alkaloid/120", "6iron/190", "3lithium/175"
 ]
 health: 500
 category: units

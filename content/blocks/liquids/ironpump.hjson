@@ -4,7 +4,7 @@ description: "Extracts liquids from pools."
 size: 3
 type: Pump
 requirements: [
-  "sannatel-iron/75", "1zinc/40", "3lithium/25"
+  "6iron/75", "1zinc/40", "3lithium/25"
 ]
 buildTime: 150
 consumes: {
@@ -26,5 +26,5 @@ research: {
   ]
 }
 researchCost: [
-  "sannatel-iron/100", "1zinc/150", "3lithium/75"
+  "6iron/100", "1zinc/150", "3lithium/75"
 ]
