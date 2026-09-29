@@ -1,12 +1,12 @@
-{
-  displayName: "[#BCC38D]Sannatel"
-  author: BlocdLost,
-  description: '''
-  Sannatel planet
-  MAKE SURE TO ALWAYS ENABLE "CLEAR SECTOR WHEN LOST"!
-  ''',
-  minGameVersion: "160",
-  name: Sannatel,
-  subtitle: "fucking around",
-  version: "0.1.30",
-}
+
+displayName: "[#BCC38D]Sannatel"
+author: BlocdLost,
+description: 
+"Sannatel planet /n MAKE SURE TO ALWAYS ENABLE 'CLEAR SECTOR WHEN LOST'!"
+minGameVersion: "160",
+name: Sannatel,
+subtitle: "fucking around",
+version: "0.1.30a",
+contentOrder: [
+  transtube, armtranstube, transrouter, transbridge, transjunc, transloader, undertrans, overtrans
+]

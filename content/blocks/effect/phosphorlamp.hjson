@@ -1,0 +1,18 @@
+name: Phosphor Lamp
+description: "Phosphorescates when powered, emitting light."
+type: LightBlock
+
+size: 1
+health: 100
+
+requirements: [
+    1zinc/25, 3lithium/12, 9phosphor/12
+]
+
+consumes: {
+    power: 0.1
+}
+
+research: {
+    parent: core-shrapnel
+}
