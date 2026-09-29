@@ -5,8 +5,8 @@
   Sannatel planet
   MAKE SURE TO ALWAYS ENABLE "CLEAR SECTOR WHEN LOST"!
   ''',
-  minGameVersion: "158",
+  minGameVersion: "160",
   name: Sannatel,
   subtitle: "fucking around",
-  version: "0.1.29",
+  version: "0.1.30",
 }
