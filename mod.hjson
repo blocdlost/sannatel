@@ -8,5 +8,12 @@ name: Sannatel,
 subtitle: "fucking around",
 version: "0.1.30a",
 contentOrder: [
-  transtube, armtranstube, transrouter, transbridge, transjunc, transloader, undertrans, overtrans
+  transtube, armtranstube, transrouter, transbridge, transjunc, transloader, undertrans, overtrans,
+  soil-drill, mineral-drill, thermal-drill, rockbore, upgraded-rockbore, ventex, ventpur,
+  core-shrapnel, core-fragment, storage-box, storage-cabinet, rejuv, extinguisher, phosphorlamp,
+  ironpump, liqchannel, armliqchannel, liqrouter, liqbridge, liqjunc, liquid-res, large-liquid-res,
+  powertrans, large-powertrans, nali-battery, chem-react-chamber, chemgen, chemnetchamber,
+  centrifuge, centrifuge2, large-centrifuge, lubricant-mixer, alkaline-furnace, heatconduct, combheater, condensation-chamber, graphrefiner,
+  pulse, fling, snipe, stain,
+  wall, lwall, ironwall, lironwall, irondoor, lirondoor, graphitewall, lgraphitewall
 ]

@@ -2,6 +2,10 @@ name: Phosphor Lamp
 description: "Phosphorescates when powered, emitting light."
 type: LightBlock
 
+group: projectors
+category: effect
+databaseTag: effect
+
 size: 1
 health: 100
 
