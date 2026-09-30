@@ -17,7 +17,9 @@ requirements: [
 category: units 
 databaseTag: units 
 
-research: ranger constructor
+research: {
+  parent: ranger-constructor
+}
 researchCost: [
   8alkaloid/25, 1zinc/75
 ]

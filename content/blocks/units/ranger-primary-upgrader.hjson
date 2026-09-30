@@ -27,3 +27,15 @@ consumes: {
   ]
 }
 
+#research: {
+#  parent: ranger-constructor
+#  objectives: [
+#    {
+#      type: OnSector
+#      preset: sannatel-standoff
+#    }
+#  ]
+#}
+#researchCost: [
+#  "8alkaloid/280", "6iron/200", "2sodium/350"
+#]

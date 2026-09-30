@@ -13,6 +13,7 @@ allowSectorInvasion: false
 allowSelfSectorLaunch: false
 allowWaves: true
 defaultCore: core-shrapnel
+clearSectorOnLose: true
 
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3

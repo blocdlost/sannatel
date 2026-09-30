@@ -16,6 +16,8 @@ range: 150
 maxRange: 150
 groundLayer: 30
 
+shownPlanets: [sannatel]
+
 weapons: [ #67 optimally, 23 DPS
  {
   name: obstacle-weapon

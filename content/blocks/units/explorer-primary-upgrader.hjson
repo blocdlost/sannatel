@@ -27,3 +27,15 @@ consumes: {
   ]
 }
 
+#research: {
+#  parent: explorer-constructor
+#  objectives: [
+#    {
+#      type: OnSector
+#      preset: sannatel-standoff
+#    }
+#  ]
+#}
+#researchCost: [
+#  "8alkaloid/350", "6iron/240", "2sodium/500"
+#]

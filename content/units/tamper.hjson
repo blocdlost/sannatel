@@ -18,6 +18,8 @@ flying: true
 range: 24
 omniMovement: false
 
+shownPlanets: [sannatel]
+
 targetAir: true 
 targetGround: true 
 circleTarget: true

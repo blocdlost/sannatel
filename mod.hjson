@@ -1,12 +1,16 @@
 
 displayName: "[#BCC38D]Sannatel"
 author: BlocdLost
-description: 
-"Sannatel planet /n MAKE SURE TO ALWAYS ENABLE 'CLEAR SECTOR WHEN LOST'!"
+description: '''
+Sannatel Planet mod
+IN DEVELOPMENT - WORK IN PROGRESS
+Beta - Campaign playable with working tech tree and research
+
+Contains elements and mechanics of both Erekir and Serpulo'''
 minGameVersion: "160"
 name: Sannatel
 subtitle: "fucking around"
-version: "0.1.30b"
+version: "0.1.30c"
 contentOrder: [
   transtube, armtranstube, transrouter, transbridge, transjunc, transloader, undertrans, overtrans,
   soil-drill, mineral-drill, thermal-drill, rockbore, upgraded-rockbore, ventex, ventpur,
@@ -16,5 +20,10 @@ contentOrder: [
   centrifuge, centrifuge2, large-centrifuge, lubricant-mixer, alkaline-furnace, heatconduct, combheater, condensation-chamber, graphrefiner,
   pulse, fling, snipe, stain,
   ptrack, prouter, ranger-constructor, explorer-constructor, pilot-constructor, ranger-primary-upgrader, explorer-primary-upgrader, pilot-primary-upgrader, ranger-secondary-upgrader, explorer-secondary-upgrader
-  wall, lwall, ironwall, lironwall, irondoor, lirondoor, graphitewall, lgraphitewall
+  wall, lwall, ironwall, lironwall, irondoor, lirondoor, graphitewall, lgraphitewall,
+
+  obstacle, barrier, blockade,
+  reverb, bass, tenor,
+  tamper, forge,
+  core-steer, core-drive
 ]

@@ -13,6 +13,8 @@ rotateSpeed: 3.2
 speed: 0.66667
 groundLayer: 75
 
+shownPlanets: [sannatel]
+
 targetAir: true
 targetGround: true
 
