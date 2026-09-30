@@ -1,12 +1,12 @@
 
 displayName: "[#BCC38D]Sannatel"
-author: BlocdLost,
+author: BlocdLost
 description: 
 "Sannatel planet /n MAKE SURE TO ALWAYS ENABLE 'CLEAR SECTOR WHEN LOST'!"
-minGameVersion: "160",
-name: Sannatel,
-subtitle: "fucking around",
-version: "0.1.30a",
+minGameVersion: "160"
+name: Sannatel
+subtitle: "fucking around"
+version: "0.1.30b"
 contentOrder: [
   transtube, armtranstube, transrouter, transbridge, transjunc, transloader, undertrans, overtrans,
   soil-drill, mineral-drill, thermal-drill, rockbore, upgraded-rockbore, ventex, ventpur,
@@ -15,5 +15,6 @@ contentOrder: [
   powertrans, large-powertrans, nali-battery, chem-react-chamber, chemgen, chemnetchamber,
   centrifuge, centrifuge2, large-centrifuge, lubricant-mixer, alkaline-furnace, heatconduct, combheater, condensation-chamber, graphrefiner,
   pulse, fling, snipe, stain,
+  ptrack, prouter, ranger-constructor, explorer-constructor, pilot-constructor, ranger-primary-upgrader, explorer-primary-upgrader, pilot-primary-upgrader, ranger-secondary-upgrader, explorer-secondary-upgrader
   wall, lwall, ironwall, lironwall, irondoor, lirondoor, graphitewall, lgraphitewall
 ]
