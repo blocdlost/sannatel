@@ -1,1 +1,4 @@
 shownPlanets: [serpulo, erekir, sannatel]
+research: {
+    parent: sodiumphosphate
+}

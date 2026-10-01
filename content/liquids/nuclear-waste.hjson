@@ -15,5 +15,5 @@ boilPoint: 3
 databaseTag: liquid
 
 research: {
-  parent: 12plutonium
+  parent: 9z3plutonium
 }
