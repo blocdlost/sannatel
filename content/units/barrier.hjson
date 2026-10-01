@@ -64,3 +64,8 @@ weapons: [ #115 DPS
 ]
 
 trailScl: 3
+
+research: {
+  parent: ranger-primary-upgrader
+}
+researchCostMultiplier: 0

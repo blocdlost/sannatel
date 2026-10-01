@@ -87,3 +87,8 @@ weapons: [ #125 DPS
     }
   }
 ]
+
+research: {
+  parent: explorer-primary-upgrader
+}
+researchCostMultiplier: 0

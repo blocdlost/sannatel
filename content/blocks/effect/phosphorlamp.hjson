@@ -20,3 +20,6 @@ consumes: {
 research: {
     parent: core-shrapnel
 }
+researchCost: [
+    1zinc/100, 3lithium/50, 9phosphor/25
+]
