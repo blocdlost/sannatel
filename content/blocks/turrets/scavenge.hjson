@@ -35,14 +35,19 @@ shoot: {
 
 squareSprite: false
 
+consumes: {
+    power: 3.5 #requires defining
+}
+
 shootType: {
     type: LaserBulletType
     damage: 90 #REQUIRES DEFINING
     pierce: false
+    pierceCap: -1
     length: 192
-    width: 5
+    width: 7
     sideLength: 16
-    sideWidth: 5
+    sideWidth: 3.5
 
 }
 
@@ -66,7 +71,8 @@ drawer: {
             mirror: false
             outline: true 
             progress: recoil 
-            moveY: -5
+            recoilIndex: 1
+            moveY: -4
             heatProgress: recoil
         }
         {
@@ -76,7 +82,8 @@ drawer: {
             mirror: false
             outline: true 
             progress: recoil
-            moveY: -5
+            recoilIndex: 0
+            moveY: -4
             heatProgress: recoil
         }
         {
@@ -86,8 +93,8 @@ drawer: {
             mirror: false
             outline: true
             progress: warmup
-            moveY: -0.5
-            moveX: 0.21875
+            moveY: -2
+            moveX: 1
         }
         {
             type: RegionPart
@@ -96,8 +103,8 @@ drawer: {
             mirror: false
             outline: true
             progress: warmup
-            moveY: -0.5
-            moveX: -0.21875
+            moveY: -2
+            moveX: -1
         }
     ]
 }
