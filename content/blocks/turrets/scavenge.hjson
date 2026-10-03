@@ -25,7 +25,7 @@ shootSound: shootLocus
 shootX: 0
 shootY: 8
 shoot: {
-  type: ShootBarrel
+  type: ShootAlternate
   shots: 1
   barrels: [
     4, 1.5, 0
@@ -44,8 +44,8 @@ shootType: {
     damage: 90 #REQUIRES DEFINING
     pierce: false
     pierceCap: -1
-    length: 192
-    width: 7
+    length: 188
+    width: 10
     sideLength: 16
     sideWidth: 3.5
 
@@ -93,7 +93,7 @@ drawer: {
             mirror: false
             outline: true
             progress: warmup
-            moveY: -2
+            moveY: -5
             moveX: 1
         }
         {
@@ -103,7 +103,7 @@ drawer: {
             mirror: false
             outline: true
             progress: warmup
-            moveY: -2
+            moveY: -5
             moveX: -1
         }
     ]
