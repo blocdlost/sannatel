@@ -1,0 +1,103 @@
+name: Scavenge
+description: ""
+size: 3
+requirements: [
+]
+health: 1200
+buildTime: 330
+category: turret
+databaseTag: turret
+group: turrets
+type: PowerTurret
+range: 185
+rotateSpeed: 2.25
+coolantMultiplier: 1 #requires defining
+shootCone: 5
+
+reload: 24 #boosted 12
+liquidCapacity: 1 #requires defining
+hasLiquids: true
+
+targetAir: true 
+targetGround: true 
+shootSound: shootLocus
+
+shootX: 0
+shootY: 8
+shoot: {
+  type: ShootBarrel
+  shots: 1
+  barrels: [
+    4, 1.5, 0
+    -4, 1.5, 0
+  ]
+}
+
+squareSprite: false
+
+shootType: {
+    type: LaserBulletType
+    damage: 90 #REQUIRES DEFINING
+    pierce: false
+    length: 192
+    width: 5
+    sideLength: 16
+    sideWidth: 5
+
+}
+
+drawer: {
+    type: DrawTurret
+    parts: [
+        {
+            type: RegionPart
+            suffix: -mid
+            under: True
+            mirror: False
+            outline: True
+            progress: recoil
+            moveY: -1
+            heatProgress: recoil 
+        }
+        {
+            type: RegionPart
+            suffix: -rbarrel
+            under: false
+            mirror: false
+            outline: true 
+            progress: recoil 
+            moveY: -5
+            heatProgress: recoil
+        }
+        {
+            type: RegionPart
+            suffix: -lbarrel
+            under: false
+            mirror: false
+            outline: true 
+            progress: recoil
+            moveY: -5
+            heatProgress: recoil
+        }
+        {
+            type: RegionPart
+            suffix: -r
+            under: false
+            mirror: false
+            outline: true
+            progress: warmup
+            moveY: -0.5
+            moveX: 0.21875
+        }
+        {
+            type: RegionPart
+            suffix: -l
+            under: false
+            mirror: false
+            outline: true
+            progress: warmup
+            moveY: -0.5
+            moveX: -0.21875
+        }
+    ]
+}
