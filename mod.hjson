@@ -10,13 +10,13 @@ Contains elements and mechanics of both Erekir and Serpulo'''
 minGameVersion: "160"
 name: Sannatel
 subtitle: "fucking around"
-version: "0.1.31e"
+version: "0.1.31f"
 contentOrder: [
   transtube, armtranstube, transrouter, transbridge, transjunc, transloader, undertrans, overtrans,
   soil-drill, mineral-drill, thermal-drill, rockbore, upgraded-rockbore, ventex, ventpur,
   core-shrapnel, core-fragment, storage-box, storage-cabinet, rejuv, extinguisher, phosphorlamp,
   ironpump, liqchannel, armliqchannel, liqrouter, liqbridge, liqjunc, liquid-res, large-liquid-res,
-  powertrans, large-powertrans, nali-battery, chem-react-chamber, chemgen, chemnetchamber,
+  powertrans, large-powertrans, nali-battery, nali2-battery, chem-react-chamber, chemgen, chemnetchamber,
   centrifuge, centrifuge2, large-centrifuge, lubricant-mixer, alkaline-furnace, heatconduct, combheater, condensation-chamber, graphrefiner,
   pulse, fling, snipe, stain, scavenge,
   ptrack, prouter, ranger-constructor, explorer-constructor, pilot-constructor, ranger-primary-upgrader, explorer-primary-upgrader, pilot-primary-upgrader, ranger-secondary-upgrader, explorer-secondary-upgrader

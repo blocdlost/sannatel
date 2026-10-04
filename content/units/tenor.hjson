@@ -28,13 +28,13 @@ maxRange: 192
 drawCell: true
 allowLegStep: true
 legPhysicsLayer: true
-legCount: 6
+legCount: 4
 legGroupSize: 2
-legLength: 14
+legLength: 16
 legSpeed: 200
 legForwardScl: 1.7
 legBaseOffset: 4
-legExtension: 1.1
+legExtension: -5
 legLengthScl: 1.1
 legStraightLength: 1.15
 legMinLength: 1.3
@@ -48,13 +48,13 @@ weapons: [ #185 DPS
     name: tenor-weapon
     mirror: false
     x: 0
-    y: -3
+    y: -2
     shoot: {
       type: ShootPattern
       shots: 3
       shotDelay: 10
     }
-    reload: 40
+    reload: 90
     top: true
     rotate: true 
     rotateSpeed: 2.25

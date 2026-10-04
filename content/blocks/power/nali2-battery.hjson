@@ -1,0 +1,15 @@
+name: Advanced Sodium-Lithium Battery
+description: "Stores charge more efficiently than its counterpart."
+type: Battery
+requirements: [
+    3lithium/215, 2sodium/160, 9z1lithium-cell/12
+]
+consumes: {
+  powerBuffered: 42000
+}
+category: power
+databaseTag: power
+health: 500
+size: 2
+buildTime: 300
+group: power

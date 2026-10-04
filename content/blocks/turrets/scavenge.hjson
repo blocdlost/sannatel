@@ -15,7 +15,7 @@ rotateSpeed: 2.25
 coolantMultiplier: 1.11112
 shootCone: 5
 
-reload: 24 #boosted 12
+reload: 24
 liquidCapacity: 120
 hasLiquids: true
 
@@ -51,9 +51,9 @@ shootType: {
     pierce: false
     pierceCap: -1
     length: 188
-    width: 16
-    sideLength: 3.5
-    sideWidth: 16
+    width: 12
+    sideLength: 14
+    sideWidth: 1.5
     colors: [
         "#AD9802ff"
         "#DCCD22ff"
@@ -63,11 +63,13 @@ shootType: {
         type: ParticleEffect
         line: true
         particles: 5
-        cone: 60
+        sizeFrom: 5
+        sizeTo: 0
+        cone: 30
         length: 32
         colorFrom: "#DCCD22ff"
         colorTo: "#AD9802ff"
-        lifetime: 25
+        lifetime: 18
     }
 }
 
@@ -113,8 +115,9 @@ drawer: {
             mirror: false
             outline: true
             progress: warmup
-            moveY: -5.1
+            moveY: -5.25
             moveX: 1.5
+            heatProgress: warmup
         }
         {
             type: RegionPart
@@ -123,8 +126,9 @@ drawer: {
             mirror: false
             outline: true
             progress: warmup
-            moveY: -5.1
+            moveY: -5.25
             moveX: -1.5
+            heatProgress: warmup
         }
     ]
 }
