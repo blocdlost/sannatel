@@ -12,7 +12,7 @@ group: turrets
 type: PowerTurret
 range: 185
 rotateSpeed: 2.25
-coolantMultiplier: 2.22223
+coolantMultiplier: 1.11112
 shootCone: 5
 
 reload: 24 #boosted 12
@@ -20,6 +20,7 @@ liquidCapacity: 120
 hasLiquids: true
 
 consumes: {
+    power: 3.5
   coolant: {
     type: consumeCoolant
     allowLiquid: true
@@ -38,15 +39,11 @@ shoot: {
   type: ShootAlternate
   shots: 1
   barrels: 2
-  barrelOffset: 4
+  barrelOffset: 4.5
   mirror: true
 }
 
 squareSprite: false
-
-consumes: {
-    power: 3.5 #requires defining
-}
 
 shootType: {
     type: LaserBulletType
@@ -54,9 +51,9 @@ shootType: {
     pierce: false
     pierceCap: -1
     length: 188
-    width: 10
-    sideLength: 16
-    sideWidth: 3.5
+    width: 16
+    sideLength: 3.5
+    sideWidth: 16
     colors: [
         "#AD9802ff"
         "#DCCD22ff"
@@ -67,10 +64,10 @@ shootType: {
         line: true
         particles: 5
         cone: 60
-        length: 8
+        length: 32
         colorFrom: "#DCCD22ff"
         colorTo: "#AD9802ff"
-        lifetime: 45
+        lifetime: 25
     }
 }
 
@@ -85,7 +82,7 @@ drawer: {
             outline: True
             progress: recoil
             moveY: -1
-            heatProgress: recoil 
+            heatProgress: warmup
         }
         {
             type: RegionPart
@@ -96,7 +93,7 @@ drawer: {
             progress: recoil 
             recoilIndex: 1
             moveY: -3
-            heatProgress: recoil
+            heatProgress: warmup
         }
         {
             type: RegionPart
@@ -107,7 +104,7 @@ drawer: {
             progress: recoil
             recoilIndex: 0
             moveY: -3
-            heatProgress: recoil
+            heatProgress: warmup
         }
         {
             type: RegionPart
@@ -116,7 +113,7 @@ drawer: {
             mirror: false
             outline: true
             progress: warmup
-            moveY: -5
+            moveY: -5.1
             moveX: 1.5
         }
         {
@@ -126,7 +123,7 @@ drawer: {
             mirror: false
             outline: true
             progress: warmup
-            moveY: -5
+            moveY: -5.1
             moveX: -1.5
         }
     ]

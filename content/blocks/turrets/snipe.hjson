@@ -15,7 +15,7 @@ rotateSpeed: 3.5
 coolantMultiplier: 5.55556
 reload: 28
 maxAmmo: 30
-ammoPerShot: 2
+ammoPerShot: 1
 targetAir: true
 targetGround: false
 shootSound: shootBreach
@@ -47,7 +47,7 @@ squareSprite: false
 ammoTypes: {
   3lithium: { #435 DPS
     type: basicBulletType
-    ammoMultiplier: 1
+    ammoMultiplier: 1.5
     pierce: true
     pierceBuilding: true
     pierceCap: 3
@@ -70,7 +70,7 @@ ammoTypes: {
     collidesGround: false
     }
   }
-  9z1lithium-cell: {
+  9z1lithium-cell: { #480 DPS
     type: basicBulletType
     rangeChange: 60
     ammoMultiplier: 3
@@ -84,7 +84,7 @@ ammoTypes: {
     trailLength: 8
     trailColor: "#8C725Aff"
     lightColor: "#8C725Aff"
-    damage: 92
+    damage: 98
     lifetime: 28
     speed: 10
     bulletInterval: 6

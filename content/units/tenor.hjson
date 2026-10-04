@@ -1,7 +1,7 @@
 name: tenor
 localizedName: Tenor
 type: legs
-description: "Fires double piercing bullets that let out a charged beam upon landing."
+description: "Fires a railgun salvo of 3 bullets which emit a laser beam upon landing."
 databaseTag: "unit-ground"
 template: ErekirUnitType
 envDisabled: 0
@@ -50,17 +50,11 @@ weapons: [ #185 DPS
     x: 0
     y: -3
     shoot: {
-      type: ShootBarrel
-      barrels: [
-        -3,-1,0
-        -3,-1,0
-        3,-1,0
-        3,-1,0
-      ]
-      shots: 2
+      type: ShootPattern
+      shots: 3
       shotDelay: 10
     }
-    reload: 60
+    reload: 40
     top: true
     rotate: true 
     rotateSpeed: 2.25
