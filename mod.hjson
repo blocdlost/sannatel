@@ -10,7 +10,7 @@ Contains elements and mechanics of both Erekir and Serpulo'''
 minGameVersion: "160"
 name: Sannatel
 subtitle: "fucking around"
-version: "0.1.31c"
+version: "0.1.31d"
 contentOrder: [
   transtube, armtranstube, transrouter, transbridge, transjunc, transloader, undertrans, overtrans,
   soil-drill, mineral-drill, thermal-drill, rockbore, upgraded-rockbore, ventex, ventpur,

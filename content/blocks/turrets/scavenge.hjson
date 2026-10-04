@@ -1,7 +1,8 @@
 name: Scavenge
-description: ""
+description: "Fires alternate laser beams in quick succession. Requires power."
 size: 3
 requirements: [
+    7talc/400, 9phosphor/125, 9z1lithium-cell/45
 ]
 health: 1200
 buildTime: 330
@@ -11,12 +12,21 @@ group: turrets
 type: PowerTurret
 range: 185
 rotateSpeed: 2.25
-coolantMultiplier: 1 #requires defining
+coolantMultiplier: 2.22223
 shootCone: 5
 
 reload: 24 #boosted 12
-liquidCapacity: 1 #requires defining
+liquidCapacity: 120
 hasLiquids: true
+
+consumes: {
+  coolant: {
+    type: consumeCoolant
+    allowLiquid: true
+    allowGas: false
+    amount: 1
+ }
+}
 
 targetAir: true 
 targetGround: true 
@@ -27,10 +37,9 @@ shootY: 8
 shoot: {
   type: ShootAlternate
   shots: 1
-  barrels: [
-    4, 1.5, 0
-    -4, 1.5, 0
-  ]
+  barrels: 2
+  barrelOffset: 4
+  mirror: true
 }
 
 squareSprite: false
@@ -48,7 +57,21 @@ shootType: {
     width: 10
     sideLength: 16
     sideWidth: 3.5
-
+    colors: [
+        "#AD9802ff"
+        "#DCCD22ff"
+        "#F0E23Cff"
+    ]
+    shootEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 5
+        cone: 60
+        length: 8
+        colorFrom: "#DCCD22ff"
+        colorTo: "#AD9802ff"
+        lifetime: 45
+    }
 }
 
 drawer: {
@@ -72,7 +95,7 @@ drawer: {
             outline: true 
             progress: recoil 
             recoilIndex: 1
-            moveY: -4
+            moveY: -3
             heatProgress: recoil
         }
         {
@@ -83,7 +106,7 @@ drawer: {
             outline: true 
             progress: recoil
             recoilIndex: 0
-            moveY: -4
+            moveY: -3
             heatProgress: recoil
         }
         {
@@ -94,7 +117,7 @@ drawer: {
             outline: true
             progress: warmup
             moveY: -5
-            moveX: 1
+            moveX: 1.5
         }
         {
             type: RegionPart
@@ -104,7 +127,7 @@ drawer: {
             outline: true
             progress: warmup
             moveY: -5
-            moveX: -1
+            moveX: -1.5
         }
     ]
 }

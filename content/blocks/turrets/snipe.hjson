@@ -25,7 +25,6 @@ group: turrets
 hasLiquids: true
 liquidCapacity: 60
 
-
 shootX: 0
 shootY: 7
 shoot: {
@@ -69,7 +68,33 @@ ammoTypes: {
     lightningLength: 5
     damage: 3
     collidesGround: false
-    ammoMultiplier: 1
+    }
+  }
+  9z1lithium-cell: {
+    type: basicBulletType
+    rangeChange: 60
+    ammoMultiplier: 3
+    reloadMultiplier: 0.75
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 3
+    pierceDamageFactor: 0
+    trailEffect: disperseTrail
+    trailParam: 4
+    trailLength: 8
+    trailColor: "#8C725Aff"
+    lightColor: "#8C725Aff"
+    damage: 92
+    lifetime: 28
+    speed: 10
+    bulletInterval: 6
+    collidesGround: false
+    intervalBullet: {
+    type: lightningBulletType
+    lightningColor: "#8C725Aff"
+    lightningLength: 8
+    damage: 7
+    collidesGround: false
     }
   }
 }
